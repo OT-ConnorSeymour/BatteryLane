@@ -1,0 +1,15 @@
+VAR
+	status_gettime : UINT;
+	rtc_gettime : RTCtime_typ;
+	currentSP : INT;
+	prevSP : INT;
+	baselineSP : ARRAY[0..3] OF INT;
+	Extra_Charge_SP : INT;
+	Const_Charge_SP : INT;
+	BaselineRamp : LCRampLim;
+	NG_Charge_SP : INT;
+	NG_SoC : UINT;
+	Extra_Charge_SoC : UINT;
+	Base_Charge_SoC : UINT;
+	Local_DCadjMan : INT;
+END_VAR

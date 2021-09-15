@@ -1,0 +1,5 @@
+VAR
+	prevPowerOutput : INT;
+	RTACTest : BOOL;
+	rampTest : BOOL;
+END_VAR

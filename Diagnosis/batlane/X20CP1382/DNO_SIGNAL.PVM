@@ -1,0 +1,20 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=DNO_SIGNAL 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=176 Force=114 Index=11 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                     BreakerNotOpenAlarm                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                             ElapsedTime                                    UDINT    0 "                                                               0"    0    7    1   10    1    0         
+                           Fub0000100000                                 TON_10ms    0 "                                                               *"    0   24    1    0    1    0         
+                                      IN                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                      PT                                    UDINT    0 "                                                            1000"    1    7    1   10    0    0         
+                                       Q                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                      ET                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                               StartTime                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                                       M                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                               G59_Input                                     BOOL    1 "                                                           FALSE"    0    1    1    2    1    0         
+                        Stage1_Confirmed                                     BOOL    3 "                                                           FALSE"    0    1    1    2    1    0         
+                            Stage1_Input                                     BOOL    1 "                                                           FALSE"    0    1    1    2    1    0         
+                           Stage1_Output                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                        Stage2_Confirmed                                     BOOL    3 "                                                           FALSE"    0    1    1    2    1    0         
+                            Stage2_Input                                     BOOL    1 "                                                           FALSE"    0    1    1    2    1    0         
+                           Stage2_Output                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                               TX123OPEN                                     BOOL    1 "                                                           FALSE"    0    1    1    2    1    0         

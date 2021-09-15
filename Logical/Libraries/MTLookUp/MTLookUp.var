@@ -1,0 +1,14 @@
+VAR CONSTANT
+	mtBCD_ERR_NODES_INVALID : DINT := -1058012184; (*Error: NumberOfNodes>50.*)
+	mtBCD_ERR_XVAL_NOT_SORTED : DINT := -1058012183; (*Error: The values of the NodeVectorX are not sorted in ascending or descending order. *)
+	mtBCD_ERR_YVAL_NOT_SORTED : DINT := -1058012182; (*Error: The values of the NodeVectorY are not sorted in ascending or descending order. *)
+	mtBCD_ERR_NODES_X_INVALID : DINT := -1058012181; (*Error: NumberOfNodesX < 2 or NumberOfNodesX > 20.*)
+	mtBCD_ERR_NODES_Y_INVALID : DINT := -1058012180; (*Error: NumberOfNodesY < 2 or NumberOfNodesY > 20.*)
+	mtBCD_ERR_LOOKUP_MODE_INVALID : DINT := -1058012179; (*Error: Mode invalid*)
+	mtBCD_WRN_NODES_INVALID : DINT := -2131754008; (*Warning: NumberOfNodes>50. Retaining the last valid configuration.*)
+	mtBCD_WRN_XVAL_NOT_SORTED : DINT := -2131754007; (*Warning: The values of the NodeVectorX are not sorted in ascending or descending order. Retaining the last valid configuration.*)
+	mtBCD_WRN_YVAL_NOT_SORTED : DINT := -2131754006; (*Warning: The values of the NodeVectorY are not sorted in ascending or descending order. Retaining the last valid configuration.*)
+	mtBCD_WRN_NODES_X_INVALID : DINT := -2131754005; (*Warning: NumberOfNodesX < 2 or NumberOfNodesX > 20. Retaining the last valid configuration.*)
+	mtBCD_WRN_NODES_Y_INVALID : DINT := -2131754004; (*Warning: NumberOfNodesY < 2 or NumberOfNodesY > 20. Retaining the last valid configuration.*)
+	mtBCD_WRN_LOOKUP_MODE_INVALID : DINT := -2131754003; (*Warning: Mode invalid*)
+END_VAR

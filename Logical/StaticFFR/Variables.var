@@ -1,0 +1,9 @@
+VAR
+	timerON : BOOL;
+	input : BOOL;
+	output : BOOL;
+	elapsedTime : TIME;
+	TON_01 : TON;
+	tmp : BOOL;
+	prevPowerOutput : INT;
+END_VAR

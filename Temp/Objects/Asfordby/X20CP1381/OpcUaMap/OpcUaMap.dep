@@ -1,0 +1,16 @@
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/IO/Variables.var
+$(AS_PROJECT_PATH)/Physical/Asfordby/X20CP1381/Cpu.sw
+$(AS_PROJECT_PATH)/Logical/Libraries/MTFilter/MTFilter.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/MTFilter/MTFilter.typ
+$(AS_PROJECT_PATH)/Logical/DynamicContainment/Variables.var
+$(AS_PROJECT_PATH)/Logical/Libraries/MTLookUp/MTLookUp.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/MTLookUp/MTLookUp.typ
+$(AS_PROJECT_PATH)/Logical/StaticFFR/Variables.var
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Manual/Variables.var
+$(AS_PROJECT_PATH)/Logical/DCTest/Variables.var
+$(AS_PROJECT_PATH)/Logical/Main/Variables.var
+$(AS_PROJECT_PATH)/Logical/Baseline/Variables.var
+$(AS_PROJECT_PATH)/Logical/Libraries/LoopCont/LoopCont.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/sys_lib/sys_lib.typ

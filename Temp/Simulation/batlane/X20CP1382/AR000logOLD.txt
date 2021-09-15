@@ -1,0 +1,30 @@
+Mon Aug 23 10:34:27 2021
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Mon Aug 23 10:34:27 2021
+No ARsim registration found!
+
+Mon Aug 23 10:34:27 2021
+InstanceName: 01d7980210ef1720
+
+Mon Aug 23 10:34:27 2021
+WorkingDirectory: C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Simulation\batlane\X20CP1382\
+
+Mon Aug 23 10:34:27 2021
+COMMAND_COLDSTART
+
+Mon Aug 23 10:34:32 2021
+Version: D4.52
+
+Mon Aug 23 10:34:33 2021
+COMMAND_TERMINATE
+
+Mon Aug 23 10:34:34 2021
+COMMAND_COLDSTART
+
+Mon Aug 23 10:34:36 2021
+Version: D4.52
+
+Mon Aug 23 11:02:42 2021
+COMMAND_TERMINATE
+

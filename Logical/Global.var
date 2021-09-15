@@ -1,0 +1,61 @@
+VAR
+	activePower : INT;
+	cmdOperationModeWrite : BOOL;
+	cmdToDynamicContainment : BOOL; (*command to turn on DC*)
+	cmdToManual : BOOL; (*command to turn switch to Manual only mode*)
+	cmdToStaticFFR : BOOL; (*command to turn on StaticFFR*)
+	cmdTurnTestModeOff : BOOL;
+	cmdTurnTestModeOn : BOOL;
+	cmdWritePowerOutput : BOOL;
+	durationTimer : TIME;
+	DynamicContainmentEnabled : BOOL;
+	expectedOutput : INT;
+	frequency : UINT; (*frequency for the control*)
+END_VAR
+VAR CONSTANT
+	GRID_FREQUENCY : REAL := 50.0;
+END_VAR
+VAR
+	idleExpectedOutput : INT;
+	injFrequency : UINT; (*injected Frequency*)
+	manualFrequency : UINT; (*to inject frequency*)
+	maxBatteryPower : INT;
+	maxExpectedOutput : INT;
+	operationModeWrite : UINT;
+	OperationModeWriteACK : BOOL;
+	PhaseLoss : BOOL; (*any Phase lost*)
+	powerOutput : INT;
+	RTACActivePower : INT;
+	RTACOperationMode : UINT;
+	RTACSoC : UINT;
+	StaticFFREnabled : BOOL;
+	staticThreshold : UINT;
+	sumPhaseLoss : BOOL;
+	testModeOn : BOOL; (*test mode on*)
+	testModeOn1 : BOOL;
+	WritePowerOutputACK : BOOL;
+	DCbaselineAdjustment : INT;
+	cmdToFFR : BOOL;
+	diACSwitch : BOOL;
+	voltPhaseA : REAL;
+	voltPhaseB : REAL;
+	voltPhaseC : REAL;
+	curPhaseA : REAL;
+	curPhaseB : REAL;
+	curPhaseC : REAL;
+	pf : INT;
+	ManualModeEnabled : BOOL;
+	powerOutputManual : INT;
+	doACSwitch : BOOL;
+	diPhase1LossGen : BOOL;
+	aiFrequency : UINT;
+	filterFreq : REAL;
+	powerOutputWriteBlock : BOOL;
+	controlState : UINT;
+	cmdToIdle : BOOL;
+	baselineAuto : BOOL;
+	cmdToFluenceManual : BOOL;
+	powerOutputDINT : DINT;
+	baseLCCounter : LCCounter;
+	DCbaselineAdjustmentManual : INT;
+END_VAR

@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.9.2.46"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1" />
+  <TaskClass
+    Name="Cyclic#2" />
+  <TaskClass
+    Name="Cyclic#3">
+    <Task
+      Name="RTACTest"
+      Disable="false"
+      Source="RTACTest"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\RTACTest\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\RTACTest\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\RTACTest\Exit.st.var" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\RTACTest\Types.typ" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\RTACTest\Variables.var" />
+    </Task>
+    <Task
+      Name="IO"
+      Disable="false"
+      Source="IO"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\IO\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\IO\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\IO\Exit.st.var" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\IO\Types.typ" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\IO\Variables.var" />
+    </Task>
+    <Task
+      Name="DynamicCon"
+      Disable="false"
+      Source="DynamicContainment"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\DynamicCon\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\DynamicCon\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\DynamicCon\Exit.st.var" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContainment\Types.typ" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContainment\Variables.var" />
+    </Task>
+    <Task
+      Name="StaticFFR"
+      Disable="false"
+      Source="StaticFFR"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\StaticFFR\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\StaticFFR\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\StaticFFR\Exit.st.var" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\StaticFFR\Types.typ" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\StaticFFR\Variables.var" />
+    </Task>
+    <Task
+      Name="Manual"
+      Disable="false"
+      Source="Manual"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\Manual\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\Manual\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\Manual\Exit.st.var" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Manual\Types.typ" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Manual\Variables.var" />
+    </Task>
+    <Task
+      Name="DCTest"
+      Disable="false"
+      Source="DCTest"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\DCTest\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\DCTest\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\DCTest\Exit.st.var" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DCTest\Types.typ" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DCTest\Variables.var" />
+    </Task>
+    <Task
+      Name="Modbus"
+      Disable="false"
+      Source="Modbus"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\Modbus\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\Modbus\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\Modbus\Exit.st.var" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Modbus\Types.typ" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Modbus\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#4">
+    <Task
+      Name="Main"
+      Disable="false"
+      Source="Main"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\Main\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\Main\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\Main\Exit.st.var" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Main\Types.typ" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Main\Variables.var" />
+    </Task>
+    <Task
+      Name="Settings"
+      Disable="false"
+      Source="Settings"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\Settings\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\Settings\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\Settings\Exit.st.var" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Settings\Types.typ" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Settings\Variables.var" />
+    </Task>
+    <Task
+      Name="VisuCtrl"
+      Disable="false"
+      Source="VisuCtrl"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\VisuCtrl\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\VisuCtrl\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\VisuCtrl\Exit.st.var" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\VisuCtrl\Types.typ" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\VisuCtrl\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7">
+    <Task
+      Name="Baseline"
+      Disable="false"
+      Source="Baseline"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\Baseline\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\Baseline\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\Asfordby\X20CP1381\Baseline\Exit.st.var" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Baseline\Types.typ" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Baseline\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#8" />
+</ConfigInfo>

@@ -1,0 +1,6 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/MTFilter/MTFilter.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/MTFilter/MTFilter.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MTTypes/MTTypes.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/AsBrMath/AsBrMath.fun
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/IO/Variables.var

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.6.110 SP"?>
+<Trend xmlns="http://br-automation.co.at/AS/VC/Project" Name="BatteryOps">
+  <Property Name="BackColor" Value="9"/>
+  <Property Name="Cursor1" Value="True"/>
+  <Property Name="Cursor1Color" Value="5"/>
+  <Property Name="Cursor1PositionDatapoint" Value="None"/>
+  <Property Name="Cursor1StatusDatapoint" Value="None"/>
+  <Property Name="Cursor2" Value="True"/>
+  <Property Name="Cursor2Color" Value="3"/>
+  <Property Name="Cursor2PositionDatapoint" Value="None"/>
+  <Property Name="Cursor2StatusDatapoint" Value="None"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="768"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="1024"/>
+  <Controls>
+    <Control ClassId="0x00001015" Name="TrendGrid_1">
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="360"/>
+      <Property Name="Left" Value="332"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="204"/>
+      <Property Name="Width" Value="360"/>
+    </Control>
+    <Control ClassId="0x00001019" Name="Xaxis">
+      <Property Name="AlignIndex" Value="1"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="100"/>
+      <Property Name="Horizontal" Value="True"/>
+      <Property Name="Left" Value="332"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="564"/>
+      <Property Name="Width" Value="360"/>
+    </Control>
+    <Control ClassId="0x00001019" Name="YaxisL1">
+      <Property Name="AlignIndex" Value="-1"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="360"/>
+      <Property Name="Horizontal" Value="False"/>
+      <Property Name="Left" Value="282"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="204"/>
+      <Property Name="Width" Value="50"/>
+    </Control>
+    <Control ClassId="0x00001019" Name="YaxisL2">
+      <Property Name="AlignIndex" Value="-2"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="360"/>
+      <Property Name="Horizontal" Value="False"/>
+      <Property Name="Left" Value="182"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="204"/>
+      <Property Name="Width" Value="100"/>
+    </Control>
+    <Control ClassId="0x00001019" Name="YaxisR1">
+      <Property Name="AlignIndex" Value="1"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="360"/>
+      <Property Name="Horizontal" Value="False"/>
+      <Property Name="Left" Value="692"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="204"/>
+      <Property Name="Width" Value="100"/>
+    </Control>
+    <Control ClassId="0x00001017" Name="FreqScale">
+      <Property Name="Description" Value=""/>
+      <Property Name="ScaleContainer" Value="Source[local].Trend[BatteryOps].Control[YaxisL1]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+    </Control>
+    <Control ClassId="0x0000101A" Name="TrendTimeScale_1">
+      <Property Name="AutomaticScrollOffset" Value="10"/>
+      <Property Name="Cursor1TimeDatapoint" Value="None"/>
+      <Property Name="Cursor2TimeDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="LabelPosition" Value="Auto"/>
+      <Property Name="ScaleContainer" Value="Source[local].Trend[BatteryOps].Control[Xaxis]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="TextSource" Value="None"/>
+    </Control>
+    <Control ClassId="0x00001017" Name="powerScale">
+      <Property Name="Description" Value=""/>
+      <Property Name="ScaleContainer" Value="Source[local].Trend[BatteryOps].Control[YaxisL2]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+    </Control>
+    <Control ClassId="0x00001017" Name="SOCScale">
+      <Property Name="Description" Value=""/>
+      <Property Name="ScaleContainer" Value="Source[local].Trend[BatteryOps].Control[YaxisR1]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+    </Control>
+    <Control ClassId="0x00001016" Name="Freq">
+      <Property Name="Cursor1ValueDatapoint" Value="None"/>
+      <Property Name="Cursor2ValueDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="0"/>
+      <Property Name="Height" Value="75"/>
+      <Property Name="HorizontalScale" Value="Source[local].Trend[BatteryOps].Control[TrendTimeScale_1]"/>
+      <Property Name="Left" Value="342"/>
+      <Property Name="MarkerType" Value="None"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="214"/>
+      <Property Name="TrendData" Value="Source[local].TrendData[Frequency]"/>
+      <Property Name="VerticalScale" Value="Source[local].Trend[BatteryOps].Control[FreqScale]"/>
+      <Property Name="Width" Value="75"/>
+      <Property Name="ZoomDisplayMode" Value="Average"/>
+    </Control>
+    <Control ClassId="0x00001016" Name="Power">
+      <Property Name="Cursor1ValueDatapoint" Value="None"/>
+      <Property Name="Cursor2ValueDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="75"/>
+      <Property Name="HorizontalScale" Value="Source[local].Trend[BatteryOps].Control[TrendTimeScale_1]"/>
+      <Property Name="Left" Value="342"/>
+      <Property Name="MarkerType" Value="None"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="299"/>
+      <Property Name="TrendData" Value="Source[local].TrendData[Power]"/>
+      <Property Name="VerticalScale" Value="Source[local].Trend[BatteryOps].Control[powerScale]"/>
+      <Property Name="Width" Value="75"/>
+      <Property Name="ZoomDisplayMode" Value="Average"/>
+    </Control>
+    <Control ClassId="0x00001016" Name="SOC">
+      <Property Name="Cursor1ValueDatapoint" Value="None"/>
+      <Property Name="Cursor2ValueDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="2"/>
+      <Property Name="Height" Value="75"/>
+      <Property Name="HorizontalScale" Value="Source[local].Trend[BatteryOps].Control[TrendTimeScale_1]"/>
+      <Property Name="Left" Value="342"/>
+      <Property Name="MarkerType" Value="None"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="389"/>
+      <Property Name="TrendData" Value="Source[local].TrendData[SoC]"/>
+      <Property Name="VerticalScale" Value="Source[local].Trend[BatteryOps].Control[SOCScale]"/>
+      <Property Name="Width" Value="75"/>
+      <Property Name="ZoomDisplayMode" Value="Average"/>
+    </Control>
+    <Control ClassId="0x00001016" Name="PowerSP">
+      <Property Name="Cursor1ValueDatapoint" Value="None"/>
+      <Property Name="Cursor2ValueDatapoint" Value="None"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="ForeColor" Value="1"/>
+      <Property Name="Height" Value="75"/>
+      <Property Name="HorizontalScale" Value="Source[local].Trend[BatteryOps].Control[TrendTimeScale_1]"/>
+      <Property Name="Left" Value="342"/>
+      <Property Name="MarkerType" Value="None"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="479"/>
+      <Property Name="TrendData" Value="Source[local].TrendData[PowerSetpoint]"/>
+      <Property Name="VerticalScale" Value="Source[local].Trend[BatteryOps].Control[powerScale]"/>
+      <Property Name="Width" Value="75"/>
+      <Property Name="ZoomDisplayMode" Value="Average"/>
+    </Control>
+  </Controls>
+</Trend>

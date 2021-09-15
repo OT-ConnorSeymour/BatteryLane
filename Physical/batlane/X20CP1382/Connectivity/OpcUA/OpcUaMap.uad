@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<OpcUaSource FileVersion="7" ArVersion="C4.83">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases>
+      <EngineeringUnit Id="1" UnitId="4937556" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="kilowatt" Symbol="kW" />
+      <EngineeringUnit Id="2" UnitId="4740186" NameSpaceUri="http://www.opcfoundation.org/UA/units/un/cefact" Name="hertz" Symbol="Hz" />
+    </EngineeringUnitAliases>
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <GlobalVariables>
+        <Variable Name="activePower" />
+        <Variable Name="aiFrequency" />
+        <Variable Name="baselineAuto" />
+        <Variable Name="cmdOperationModeWrite" />
+        <Variable Name="cmdToDynamicContainment" />
+        <Variable Name="cmdToFFR" />
+        <Variable Name="cmdToIdle" />
+        <Variable Name="cmdToManual" />
+        <Variable Name="cmdToStaticFFR" />
+        <Variable Name="cmdTurnTestModeOff" />
+        <Variable Name="cmdTurnTestModeOn" />
+        <Variable Name="cmdWritePowerOutput" />
+        <Variable Name="controlState" />
+        <Variable Name="DCbaselineAdjustment" />
+        <Variable Name="DCbaselineAdjustmentManual" />
+        <Variable Name="diACSwitch" />
+        <Variable Name="diPhase1LossGen" />
+        <Variable Name="doACSwitch" />
+        <Variable Name="durationTimer" />
+        <Variable Name="DynamicContainmentEnabled" />
+        <Variable Name="expectedOutput" EngineeringUnitId="1" />
+        <Variable Name="filterFreq" />
+        <Variable Name="frequency" EngineeringUnitId="2" />
+        <Variable Name="GRID_FREQUENCY" />
+        <Variable Name="idleExpectedOutput" EngineeringUnitId="1" />
+        <Variable Name="injFrequency" EngineeringUnitId="2" />
+        <Variable Name="manualFrequency" />
+        <Variable Name="ManualModeEnabled" />
+        <Variable Name="maxBatteryPower" EngineeringUnitId="1" />
+        <Variable Name="maxExpectedOutput" EngineeringUnitId="1" />
+        <Variable Name="operationModeWrite" />
+        <Variable Name="OperationModeWriteACK" />
+        <Variable Name="powerOutput" EngineeringUnitId="1" />
+        <Variable Name="powerOutputDINT" />
+        <Variable Name="powerOutputManual" />
+        <Variable Name="RTACActivePower" EngineeringUnitId="1" />
+        <Variable Name="RTACOperationMode" />
+        <Variable Name="RTACSoC" />
+        <Variable Name="StaticFFREnabled" />
+        <Variable Name="staticThreshold" />
+        <Variable Name="testModeOn" />
+        <Variable Name="WritePowerOutputACK" />
+      </GlobalVariables>
+      <Task Name="Modbus">
+        <Variable Name="ModbusSlaveDiagOn" />
+        <Variable Name="prevOperationMode" />
+        <Variable Name="prevPowerOutput" />
+        <Variable Name="RTACActContError" />
+        <Variable Name="RTACActInternalError" />
+        <Variable Name="RTACActModusError" />
+        <Variable Name="RTACActOverloadError" />
+        <Variable Name="RTACActRefreshError" />
+        <Variable Name="RTACActSlvConError" />
+        <Variable Name="RTACLastErrBlockNr" />
+        <Variable Name="RTACModbusConErrorCnt" />
+        <Variable Name="RTACModbusErrorCnt" />
+        <Variable Name="RTACModbusErrorLast" />
+        <Variable Name="RTACModbusMeanResponseTime" />
+        <Variable Name="RTACModbusPktRefreshTimoutCnt" />
+        <Variable Name="RTACModbusSlaveDiag" />
+        <Variable Name="RTACModSlaveState" />
+        <Variable Name="RTACModuleOK" />
+        <Variable Name="RTACPktPendPerSec" />
+      </Task>
+      <Task Name="IO">
+        <Variable Name="aiActivePower" />
+        <Variable Name="aiAparentPower" />
+        <Variable Name="aiAverageCurrentGen" />
+        <Variable Name="aiAverageLineVoltage" />
+        <Variable Name="aiCurPhaseA" />
+        <Variable Name="aiCurPhaseB" />
+        <Variable Name="aiCurPhaseC" />
+        <Variable Name="aiFrequencySync1" />
+        <Variable Name="aiFrequencySync2" />
+        <Variable Name="aiLineVoltageBusL1L2" />
+        <Variable Name="aiLineVoltageBusL2L3" />
+        <Variable Name="aiLineVoltageBusL3L1" />
+        <Variable Name="aiLineVoltageGenL1L2" />
+        <Variable Name="aiLineVoltageGenL2L3" />
+        <Variable Name="aiLineVoltageGenL3L1" />
+        <Variable Name="aiLineVoltageSync1" />
+        <Variable Name="aiLineVoltageSync2" />
+        <Variable Name="aiPF" />
+        <Variable Name="aiPhaseCurrentGenL1" />
+        <Variable Name="aiPhaseCurrentGenL2" />
+        <Variable Name="aiPhaseCurrentGenL3" />
+        <Variable Name="aiPhaseVoltageGenL1" />
+        <Variable Name="aiPhaseVoltageGenL2" />
+        <Variable Name="aiPhaseVoltageGenL3" />
+        <Variable Name="aiPhaseVoltageL1" />
+        <Variable Name="aiPhaseVoltageL2" />
+        <Variable Name="aiPhaseVoltageL3" />
+        <Variable Name="aiReactivePower" />
+        <Variable Name="aiVoltPhaseA" />
+        <Variable Name="aiVoltPhaseB" />
+        <Variable Name="aiVoltPhaseC" />
+        <Variable Name="avgCurrent" />
+        <Variable Name="avgVolt" />
+        <Variable Name="curScalingFactor" />
+        <Variable Name="filterFreqLowPass" />
+        <Variable Name="filterFreqMA" />
+        <Variable Name="LowPassFilter" />
+        <Variable Name="MAX_INJ_FREQ" />
+        <Variable Name="MIN_INJ_FREQ" />
+        <Variable Name="MovingAverage" />
+        <Variable Name="mtBESSEL" />
+      </Task>
+      <Task Name="DynamicCon">
+        <Variable Name="freqDev" />
+        <Variable Name="freqDevINT" />
+        <Variable Name="freqDevUINT" />
+        <Variable Name="GRID_DEADAND" />
+        <Variable Name="mtCONSTANT_END_VALUE" />
+        <Variable Name="powerOut" />
+        <Variable Name="powerRatio" />
+        <Variable Name="prevPowerOutput" />
+        <Variable Name="Table" />
+      </Task>
+      <Task Name="StaticFFR">
+        <Variable Name="elapsedTime" />
+        <Variable Name="input" />
+        <Variable Name="output" />
+        <Variable Name="prevPowerOutput" />
+        <Variable Name="timerON" />
+        <Variable Name="tmp" />
+        <Variable Name="TON_01" />
+      </Task>
+      <Task Name="Manual">
+        <Variable Name="chargeToSoC" />
+        <Variable Name="chargeToSoCPowerTarget" />
+        <Variable Name="chargeToSoCTarget" />
+      </Task>
+      <Task Name="DCTest">
+        <Variable Name="base1msec" />
+        <Variable Name="cmdStartStepTest" />
+        <Variable Name="cmdStartSustainHF" />
+        <Variable Name="cmdStartSustainLF" />
+        <Variable Name="cmdStartSweepDown" />
+        <Variable Name="cmdStartSweepUp" />
+        <Variable Name="cmdStopStepTest" />
+        <Variable Name="cmdStopSustainHF" />
+        <Variable Name="cmdStopSustainLF" />
+        <Variable Name="cmdStopSweepDown" />
+        <Variable Name="cmdStopSweepUp" />
+        <Variable Name="elapsedTime" />
+        <Variable Name="ind" />
+        <Variable Name="out" />
+        <Variable Name="startStepTest" />
+        <Variable Name="startSustainHF" />
+        <Variable Name="startSustainLF" />
+        <Variable Name="startSweepDown" />
+        <Variable Name="startSweepUp" />
+      </Task>
+      <Task Name="Main">
+        <Variable Name="prevOperationMode" />
+      </Task>
+      <Task Name="Baseline">
+        <Variable Name="Base_Charge_SoC" />
+        <Variable Name="baselineSP" EnableArrayElements="True" />
+        <Variable Name="Const_Charge_SP" />
+        <Variable Name="currentSP" />
+        <Variable Name="Extra_Charge_SoC" />
+        <Variable Name="Extra_Charge_SP" />
+        <Variable Name="NG_Charge_SP" />
+        <Variable Name="NG_SoC" />
+        <Variable Name="prevSP" />
+        <Variable Name="rtc_gettime">
+          <Variable Name="year" />
+          <Variable Name="month" />
+          <Variable Name="day" />
+          <Variable Name="reserve" />
+          <Variable Name="hour" />
+          <Variable Name="minute" />
+          <Variable Name="second" />
+          <Variable Name="millisec" />
+          <Variable Name="microsec" />
+        </Variable>
+        <Variable Name="status_gettime" />
+        <Variable Name="BaselineRamp" />
+        <Variable Name="Local_DCadjMan" />
+      </Task>
+      <Task Name="DNO_SIGNAL">
+        <Variable Name="G59_Input" />
+        <Variable Name="Stage1_Confirmed" />
+        <Variable Name="Stage1_Input" />
+        <Variable Name="Stage1_Output" />
+        <Variable Name="Stage2_Confirmed" />
+        <Variable Name="Stage2_Input" />
+        <Variable Name="BreakerNotOpenAlarm" />
+        <Variable Name="TX123OPEN" />
+        <Variable Name="Stage2_Output" />
+        <Variable Name="ElapsedTime" />
+      </Task>
+      <Task Name="Watchdog" />
+    </Module>
+  </DefaultView>
+</OpcUaSource>

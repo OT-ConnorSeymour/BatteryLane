@@ -1,0 +1,12 @@
+VAR
+	Stage1_Input : BOOL;
+	Stage2_Input : BOOL;
+	G59_Input : BOOL;
+	Stage1_Confirmed : BOOL;
+	Stage2_Confirmed : BOOL;
+	Stage1_Output : BOOL;
+	Stage2_Output : BOOL;
+	TX123OPEN : BOOL; (*TXFeeder123Open*)
+	BreakerNotOpenAlarm : BOOL;
+	ElapsedTime : UDINT;
+END_VAR

@@ -1,0 +1,21 @@
+VAR
+	prevPowerOutput : DINT;
+	prevOperationMode : UINT;
+	RTACModuleOK : BOOL;
+	RTACActInternalError : BOOL;
+	RTACActContError : BOOL;
+	RTACActOverloadError : BOOL;
+	RTACActModusError : BOOL;
+	RTACActSlvConError : BOOL;
+	RTACActRefreshError : BOOL;
+	RTACModSlaveState : UINT;
+	RTACModbusErrorLast : UINT;
+	RTACLastErrBlockNr : UINT;
+	RTACModbusSlaveDiag : BOOL;
+	RTACModbusErrorCnt : UINT;
+	RTACModbusConErrorCnt : UINT;
+	RTACModbusPktRefreshTimoutCnt : UINT;
+	RTACPktPendPerSec : UINT;
+	RTACModbusMeanResponseTime : UINT;
+ModbusSlaveDiagOn : BOOL;
+END_VAR

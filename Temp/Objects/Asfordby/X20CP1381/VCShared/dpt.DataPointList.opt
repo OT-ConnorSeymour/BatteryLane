@@ -1,0 +1,19 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="C:/Users/OT-Connor.Seymour/Desktop/BatteryControl/Physical/Asfordby/X20CP1381/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="RTACTest" Source="RTACTest.prg" />
+      <Task Name="IO" Source="IO.prg" />
+      <Task Name="DynamicCon" Source="DynamicContainment.prg" />
+      <Task Name="StaticFFR" Source="StaticFFR.prg" />
+      <Task Name="Manual" Source="Manual.prg" />
+      <Task Name="DCTest" Source="DCTest.prg" />
+      <Task Name="Modbus" Source="Modbus.prg" />
+      <Task Name="Main" Source="Main.prg" />
+      <Task Name="Settings" Source="Settings.prg" />
+      <Task Name="VisuCtrl" Source="VisuCtrl.prg" />
+      <Task Name="Baseline" Source="Baseline.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

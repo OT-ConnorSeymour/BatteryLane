@@ -1,0 +1,5 @@
+VAR
+	chargeToSoC : BOOL;
+	chargeToSoCTarget : UINT;
+	chargeToSoCPowerTarget : INT;
+END_VAR

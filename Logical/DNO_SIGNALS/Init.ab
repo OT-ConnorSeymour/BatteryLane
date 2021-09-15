@@ -1,0 +1,11 @@
+
+PROGRAM _INIT
+	(* Insert code here *)
+	Stage1_Input := 0;
+	Stage2_Input := 0;
+	
+	
+
+	
+	
+END_PROGRAM

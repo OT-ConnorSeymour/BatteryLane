@@ -1,0 +1,53 @@
+
+PROGRAM _CYCLIC
+	(* Insert code here *)
+	IF Stage1_Input THEN				(* K1 is Stage 1 Confirm *)
+		Stage1_Output := TRUE;			(* K3 is Stage 1 Enable *)
+	ENDIF								(* K2 Is stage 2 Confirm *)
+										(* K4 is Stage 2 Enable*) 
+										(* K5 is G59 Event *)
+	IF Stage1_Input = FALSE THEN 		(* K6 is TX1&2 2&3 5&6 Feeder OPEN *)
+		Stage1_Output := FALSE;
+	ENDIF
+	
+	
+	
+	IF Stage1_Output THEN
+		Stage1_Confirmed := TRUE;
+		
+	ENDIF
+	
+	IF Stage1_Output = FALSE THEN 
+		Stage1_Confirmed := FALSE;
+		ENDIF
+	
+	IF Stage2_Input = TRUE AND TX123OPEN = TRUE THEN
+		Stage2_Output:= TRUE;
+	ENDIF
+	
+	IF Stage2_Output THEN
+		Stage2_Confirmed:= TRUE;
+		
+	ENDIF
+	IF TX123OPEN = FALSE THEN
+		Stage2_Output := FALSE;
+	ENDIF
+	
+	IF Stage2_Input = FALSE THEN
+		Stage2_Output := FALSE;
+	ENDIF
+	
+	IF Stage2_Output = FALSE THEN
+		Stage2_Confirmed := FALSE;
+	ENDIF
+	
+	TON_10ms(Stage2_Input AND NOT TX123OPEN, 1000, BreakerNotOpenAlarm, ElapsedTime);
+	 
+		
+		
+	
+		
+	
+	
+	
+END_PROGRAM

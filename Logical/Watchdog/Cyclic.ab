@@ -1,0 +1,11 @@
+
+PROGRAM _CYCLIC
+	(* Insert code here *)
+Watchdog_Int := Watchdog_Int +1;
+	
+	
+	IF Watchdog_Int = 10 THEN
+		Watchdog_Int :=0;
+		ENDIF
+END_PROGRAM
+

@@ -1,0 +1,7 @@
+
+PROGRAM _INIT
+	(* Insert code here *)
+	
+	Watchdog_Int = 0;
+	 
+END_PROGRAM

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Physical xmlns="http://br-automation.co.at/AS/Physical">
+  <Objects>
+    <Object Type="Configuration">PercivalFaster</Object>
+    <Object Type="Configuration">Percival</Object>
+    <Object Type="Configuration">Asfordby</Object>
+    <Object Type="Configuration">SolihullTest</Object>
+    <Object Type="Configuration">SolihullTest2</Object>
+    <Object Type="Configuration">Vauxhall</Object>
+    <Object Type="Configuration">batlane</Object>
+  </Objects>
+</Physical>

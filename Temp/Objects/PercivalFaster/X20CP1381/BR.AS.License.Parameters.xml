@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=tcpip /LOPO=11159 /SA=1</DeviceParameters>
+    <ConnectionParameters>/RT=1000 /AM=* /DAIP=172.18.209.179 /REPO=11159 /ANSL=1</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\BatteryControl.apj</ApjFullFileName>
+    <ProjectName>BatteryControl</ProjectName>
+    <ActiveConfigurationName>PercivalFaster</ActiveConfigurationName>
+    <LicenseDataFolder>C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\PercivalFaster\X20CP1381</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>

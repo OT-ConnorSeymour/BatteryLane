@@ -1,0 +1,7 @@
+$(AS_PROJECT_PATH)/Logical/DynamicContAll/Variables.var
+$(AS_PROJECT_PATH)/Logical/Libraries/MTFilter/MTFilter.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MTLookUp/MTLookUp.typ
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Libraries/MTTypes/MTTypes.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MTFilter/MTFilter.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/MTLookUp/MTLookUp.fun

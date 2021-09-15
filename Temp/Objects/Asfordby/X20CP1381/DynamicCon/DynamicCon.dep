@@ -1,0 +1,4 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/MTLookUp/MTLookUp.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/MTLookUp/MTLookUp.typ
+$(AS_PROJECT_PATH)/Logical/DynamicContainment/Variables.var
+$(AS_PROJECT_PATH)/Logical/Global.var

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.9.2.46 FileVersion="4.9"?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="RTAC" Type="ModbusTcp_any" Version="1.0.8.0">
+    <Connection Connector="ETH1" TargetModule="X20CP1381" TargetConnector="IF2" NodeNumber="1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="10.71.46.5" />
+    <Parameter ID="UnitId" Value="1" />
+    <Group ID="Cb_1" />
+    <Parameter ID="Cb_1_FunCode" Value="16" />
+    <Parameter ID="Cb_1_RefreshTime" Value="50" />
+    <Parameter ID="Cb_1_SendMode" Value="2" />
+    <Parameter ID="Cb_1_AddrExt" Value="30" />
+    <Parameter ID="Cb_1_NumItemsExt" Value="2" />
+    <Group ID="Cb_1_C_1" />
+    <Parameter ID="Cb_1_C_1_Name" Value="powerWrite" />
+    <Parameter ID="Cb_1_C_1_Datatype" Value="4" />
+    <Parameter ID="Cb_1_C_1_Dir" Value="1" />
+    <Group ID="Cb_2" />
+    <Parameter ID="Cb_2_FunCode" Value="3" />
+    <Parameter ID="Cb_2_RefreshTime" Value="500" />
+    <Parameter ID="Cb_2_Addr" Value="10" />
+    <Group ID="Cb_2_C_1" />
+    <Parameter ID="Cb_2_C_1_Name" Value="operationMode" />
+    <Parameter ID="Cb_2_C_1_Datatype" Value="6" />
+    <Group ID="Cb_3" />
+    <Parameter ID="Cb_3_FunCode" Value="6" />
+    <Parameter ID="Cb_3_RefreshTime" Value="500" />
+    <Parameter ID="Cb_3_SendMode" Value="2" />
+    <Parameter ID="Cb_3_AddrExt" Value="28" />
+    <Group ID="Cb_3_C_1" />
+    <Parameter ID="Cb_3_C_1_Name" Value="operationModeWrite" />
+    <Parameter ID="Cb_3_C_1_Datatype" Value="6" />
+    <Parameter ID="Cb_3_C_1_Dir" Value="1" />
+    <Group ID="Cb_4" />
+    <Parameter ID="Cb_4_FunCode" Value="3" />
+    <Parameter ID="Cb_4_RefreshTime" Value="500" />
+    <Parameter ID="Cb_4_Addr" Value="26" />
+    <Group ID="Cb_4_C_1" />
+    <Parameter ID="Cb_4_C_1_Name" Value="activePower" />
+    <Parameter ID="Cb_4_C_1_Datatype" Value="3" />
+    <Group ID="Cb_5" />
+    <Parameter ID="Cb_5_FunCode" Value="3" />
+    <Parameter ID="Cb_5_RefreshTime" Value="500" />
+    <Parameter ID="Cb_5_Addr" Value="20" />
+    <Group ID="Cb_5_C_1" />
+    <Parameter ID="Cb_5_C_1_Name" Value="SOC" />
+    <Parameter ID="Cb_5_C_1_Datatype" Value="6" />
+  </Module>
+  <Module Name="X20BM11" Type="X20BM11" Version="1.0.0.1" Disabled="true">
+    <Connection Connector="X2X1" TargetModule="X20CM0985" TargetConnector="X2X2" />
+  </Module>
+  <Module Name="X20CM0985" Type="X20CM0985" Version="1.0.6.1">
+    <Connection Connector="X2X1" TargetModule="X20CP1381" TargetConnector="IF6" />
+    <Parameter ID="GenRange" Value="100V" />
+    <Parameter ID="BusRange" Value="100V" />
+    <Parameter ID="Sync1Range" Value="100V" />
+    <Parameter ID="Sync2Range" Value="100V" />
+    <Parameter ID="CurrentRange" Value="1A" />
+    <Parameter ID="UnennSyn" Value="11000" />
+    <Parameter ID="UnennGen" Value="11000" />
+    <Parameter ID="UnennSamm" Value="11000" />
+    <Parameter ID="Inenn" Value="1250" />
+    <Parameter ID="Msammel" Value="10000" />
+    <Parameter ID="MGen" Value="10000" />
+    <Parameter ID="MSyn1" Value="10000" />
+    <Parameter ID="MSyn2" Value="10000" />
+    <Parameter ID="Mstrom" Value="1250" />
+    <Parameter ID="TiefpassF" Value="20" />
+    <Parameter ID="Ofrequency" Value="2000" />
+    <Parameter ID="Ufrequency" Value="0" />
+    <Parameter ID="Rfmin" Value="100" />
+  </Module>
+  <Module Name="X20CP1381" Type="X20CP1381" Version="1.11.0.0">
+    <Module Name="X1" Type="X1" Virtual="true" Version="1.11.0.0">
+      <Connection Connector="SS1" TargetModule="X20TB1F1" TargetConnector="SS" />
+      <Connection Connector="SL" TargetModule="X20CP1381" TargetConnector="X1" />
+    </Module>
+    <Module Name="X2" Type="X2" Virtual="true" Version="1.11.0.0">
+      <Connection Connector="SS1" TargetModule="X20TB1F2" TargetConnector="SS" />
+      <Connection Connector="SL" TargetModule="X20CP1381" TargetConnector="X2" />
+    </Module>
+    <Module Name="X3" Type="X3" Virtual="true" Version="1.11.0.0">
+      <Connection Connector="SS1" TargetModule="X20TB1F3" TargetConnector="SS" />
+      <Connection Connector="SL" TargetModule="X20CP1381" TargetConnector="X3" />
+    </Module>
+    <Connection Connector="X1" TargetModule="X1" TargetConnector="SL" />
+    <Connection Connector="X2" TargetModule="X2" TargetConnector="SL" />
+    <Connection Connector="X3" TargetModule="X3" TargetConnector="SL" />
+    <Connector Name="IF2">
+      <Parameter ID="ActivateDevice" Value="1" />
+      <Group ID="Vnc1" />
+      <Parameter ID="VncVcObjectName1" Value="Visu" />
+      <Parameter ID="VncKeyMappingFile1" Value="VC\PS2-Keyboard.dis" />
+      <Parameter ID="VncRefreshRate1" Value="500" />
+      <Parameter ID="VncTitle1" Value="Debug" />
+      <Parameter ID="ActivateModbus" Value="1" />
+      <Parameter ID="NumSlaves" Value="-1" />
+      <Parameter ID="NumAllBlocks" Value="-1" />
+      <Parameter ID="MemSizeIn" Value="-1" />
+      <Parameter ID="MemSizeOut" Value="-1" />
+    </Connector>
+    <Connector Name="IF3">
+      <Parameter ID="DNAConfiguration" Value="manual" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="Static_Config1" />
+    <Parameter ID="TimerDeviceType" Value="SWIOTIMER" />
+    <Parameter ID="SystemTick" Value="5000" />
+    <Parameter ID="IdleTaskClass" Value="4" />
+    <Parameter ID="Cyclic1Duration" Value="5000" />
+    <Parameter ID="Cyclic1Tolerance" Value="5000" />
+    <Parameter ID="Cyclic2Duration" Value="10000" />
+    <Parameter ID="Cyclic2Tolerance" Value="10000" />
+    <Parameter ID="Cyclic3Duration" Value="50000" />
+    <Parameter ID="Cyclic3Tolerance" Value="50000" />
+    <Parameter ID="Cyclic4Duration" Value="100000" />
+    <Parameter ID="Cyclic4Tolerance" Value="100000" />
+    <Parameter ID="Cyclic5Duration" Value="200000" />
+    <Parameter ID="Cyclic5Tolerance" Value="200000" />
+    <Parameter ID="Cyclic6Duration" Value="500000" />
+    <Parameter ID="Cyclic6Tolerance" Value="500000" />
+    <Parameter ID="Cyclic7Duration" Value="1000000" />
+    <Parameter ID="Cyclic7Tolerance" Value="1000000" />
+    <Parameter ID="Cyclic8Duration" Value="10000" />
+    <Parameter ID="Cyclic8Tolerance" Value="30000000" />
+    <Parameter ID="ActivateSntp" Value="1" />
+    <Parameter ID="SntpcServAddr1" Value="194.164.127.5" />
+    <Parameter ID="SntpcServAddr2" Value="194.164.127.4" />
+    <Parameter ID="SntpcServAddr3" Value="194.164.127.6" />
+    <Parameter ID="SntpcServAddr4" Value="81.168.77.149" />
+    <Parameter ID="ActivateDns" Value="1" />
+    <Parameter ID="DnsDefaultDomain" Value="ukpr.local" />
+    <Parameter ID="GetDnsFromDhcp" Value="2" />
+    <Parameter ID="ActivateOpcUa" Value="1" />
+    <Parameter ID="OpcUa_Security_SoftwareCertificates" Value="" />
+  </Module>
+  <Module Name="X20DO2649" Type="X20DO2649" Version="1.1.0.0" Disabled="true">
+    <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11" TargetConnector="SL1" />
+  </Module>
+  <Module Name="X20TB12" Type="X20TB12" Version="1.0.0.0" Disabled="true" />
+  <Module Name="X20TB1F1" Type="X20TB1F" Version="1.0.0.0" />
+  <Module Name="X20TB1F2" Type="X20TB1F" Version="1.0.0.0" />
+  <Module Name="X20TB1F3" Type="X20TB1F" Version="1.0.0.0" />
+</Hardware>

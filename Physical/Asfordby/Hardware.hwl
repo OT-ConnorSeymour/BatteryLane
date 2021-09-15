@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="Asfordby.Hardware.hw" LastWriteTime="09/14/2021 12:51:15" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="RTAC" Type="ModbusTcp_any" X="368" Y="252" />
+    <Module Name="X20CP1381" Type="X20CP1381" X="100" Y="100" />
+    <Module Name="X20CM0985" Type="X20CM0985" X="264" Y="100" />
+    <Module Name="X20BM11" Type="X20BM11" X="355" Y="100" />
+    <Module Name="X20DO2649" Type="X20DO2649" X="355" Y="100" />
+    <Module Name="X20TB12" Type="X20TB12" X="355" Y="127" />
+    <Module Name="X3" Type="X3" X="251" Y="103" />
+    <Module Name="X20TB1F3" Type="X20TB1F" X="251" Y="126" />
+    <Module Name="X2" Type="X2" X="238" Y="103" />
+    <Module Name="X20TB1F2" Type="X20TB1F" X="238" Y="126" />
+    <Module Name="X1" Type="X1" X="225" Y="103" />
+    <Module Name="X20TB1F1" Type="X20TB1F" X="225" Y="126" />
+  </Modules>
+  <Links>
+    <Link From="RTAC" To="X20CP1381" FromPort="ETH1" ToPort="IF2" IsRoutedByUser="False">
+      <Point X="402" Y="296" />
+      <Point X="402" Y="296" />
+      <Point X="402" Y="303" />
+      <Point X="402" Y="315" />
+      <Point X="134" Y="315" />
+      <Point X="134" Y="203" />
+      <Point X="134" Y="188" />
+      <Point X="134" Y="188" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

@@ -1,0 +1,34 @@
+VAR
+	sweepUp : ARRAY[0..3000] OF REAL;
+	sweepDown : ARRAY[0..3000] OF REAL;
+	startSweepDown : BOOL;
+	out : REAL;
+	ind : UINT;
+	cmdStartSweepDown : BOOL;
+	cmdStopSweepDown : BOOL;
+	startSweepUp : BOOL;
+	cmdStartSweepUp : BOOL;
+	cmdStopSweepUp : BOOL;
+	elapsedTime : REAL;
+	stepTest : ARRAY[0..569] OF REAL;
+	base1musec : UDINT;
+	base100musec : UDINT;
+	base1msec : UDINT;
+	base100msec : UDINT;
+	base1sec : UDINT;
+	cmdStartStepTest : BOOL;
+	startStepTest : BOOL;
+	startInd : UDINT;
+	prevDiff : UDINT;
+	cmdStopStepTest : BOOL;
+	diff : UDINT;
+	sustainLF : ARRAY[0..959] OF REAL;
+	startSustainLF : BOOL;
+	cmdStopSustainLF : BOOL;
+	cmdStartSustainLF : BOOL;
+	stepTestFull : ARRAY[0..3359] OF REAL;
+	sustainHF : ARRAY[0..959] OF REAL;
+	cmdStartSustainHF : BOOL;
+	startSustainHF : BOOL;
+	cmdStopSustainHF : BOOL;
+END_VAR

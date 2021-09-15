@@ -1,0 +1,4 @@
+VAR
+	prevOperationMode : UINT;
+	prevRTACOperationMode : UINT;
+END_VAR
