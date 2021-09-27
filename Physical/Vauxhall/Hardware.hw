@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=4.9.2.46 FileVersion="4.9"?>
+<?AutomationStudio Version=4.9.3.144 FileVersion="4.9"?>
 <Hardware xmlns="http://br-automation.co.at/AS/Hardware">
   <Module Name="RTAC" Type="ModbusTcp_any" Version="1.0.8.0">
     <Connection Connector="ETH1" TargetModule="X20CP1382" TargetConnector="IF2" NodeNumber="1">
@@ -104,29 +104,14 @@
     </Connector>
     <Parameter ID="ConfigurationID" Value="Static_Config1" />
     <Parameter ID="PermanentPvSize" Value="4096" />
-    <Parameter ID="TimerDeviceType" Value="SWIOTIMER" />
     <Parameter ID="SystemTick" Value="5000" />
     <Parameter ID="IdleTaskClass" Value="4" />
     <Parameter ID="Cyclic1Duration" Value="5000" />
     <Parameter ID="Cyclic1Tolerance" Value="5000" />
-    <Parameter ID="Cyclic2Duration" Value="20000" />
-    <Parameter ID="Cyclic2Tolerance" Value="20000" />
-    <Parameter ID="Cyclic3Duration" Value="50000" />
-    <Parameter ID="Cyclic3Tolerance" Value="50000" />
-    <Parameter ID="Cyclic4Duration" Value="100000" />
-    <Parameter ID="Cyclic4Tolerance" Value="100000" />
-    <Parameter ID="Cyclic5Duration" Value="200000" />
-    <Parameter ID="Cyclic5Tolerance" Value="200000" />
-    <Parameter ID="Cyclic6Duration" Value="500000" />
-    <Parameter ID="Cyclic6Tolerance" Value="500000" />
-    <Parameter ID="Cyclic7Duration" Value="1000000" />
-    <Parameter ID="Cyclic7Tolerance" Value="1000000" />
-    <Parameter ID="Cyclic8Duration" Value="10000" />
-    <Parameter ID="Cyclic8Tolerance" Value="30000000" />
     <Parameter ID="ActivateDaylightSavingTime" Value="1" />
     <Parameter ID="ActivateSntp" Value="1" />
-    <Parameter ID="SntpcServAddr1" Value="0.uk.pool.ntp.org" />
-    <Parameter ID="SntpcServAddr2" Value="1.uk.pool.ntp.org" />
+    <Parameter ID="SntpcServAddr1" Value="172.18.233.67" />
+    <Parameter ID="SntpcServAddr2" Value="172.18.193.21" />
     <Parameter ID="SntpcServAddr3" Value="2.uk.pool.ntp.org" />
     <Parameter ID="SntpcServAddr4" Value="3.uk.pool.ntp.org" />
     <Parameter ID="ActivateDns" Value="1" />
@@ -134,6 +119,7 @@
     <Parameter ID="GetDnsFromDhcp" Value="2" />
     <Parameter ID="ActivateOpcUa" Value="1" />
     <Parameter ID="OpcUa_Security_SoftwareCertificates" Value="" />
+    <Parameter ID="OpcUaInformationModels_PV_Version" Value="1" />
   </Module>
   <Module Name="X20DO2649" Type="X20DO2649" Version="1.1.0.0" Disabled="true">
     <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />

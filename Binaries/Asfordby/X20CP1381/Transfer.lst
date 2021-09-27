@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio Version=3.0?>
 <Transfer xmlns="http://br-automation.co.at/AS/Transfer">
-  <OperatingSystem Version="A4.26"/>
+  <OperatingSystem Version="C4.83"/>
   <Hardware Target="SG4"/>
   <Operation Delete="Baseline.br"/>
   <Operation Delete="VisuCtrl.br"/>
@@ -70,7 +70,6 @@
   <Operation Download="iomap.br" Memory="UserROM"/>
   <Operation Download="User.br" Memory="UserROM"/>
   <Operation Download="Role.br" Memory="UserROM"/>
-  <Operation Download="OpcUaMap.br" Memory="UserROM"/>
   <Operation Download="standard.br" Memory="UserROM"/>
   <Operation Download="runtime.br" Memory="UserROM"/>
   <Operation Download="MTTypes.br" Memory="UserROM"/>

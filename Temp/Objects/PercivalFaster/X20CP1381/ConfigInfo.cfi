@@ -4,24 +4,7 @@
   <TaskClass
     Name="Cyclic#1" />
   <TaskClass
-    Name="Cyclic#2">
-    <Task
-      Name="DynamicCo1"
-      Disable="false"
-      Source="DynamicContAll"
-      Language="IEC">
-      <InternalFile
-        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\PercivalFaster\X20CP1381\DynamicCo1\Cyclic.st.var" />
-      <InternalFile
-        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\PercivalFaster\X20CP1381\DynamicCo1\Init.st.var" />
-      <InternalFile
-        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\PercivalFaster\X20CP1381\DynamicCo1\Exit.st.var" />
-      <File
-        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContAll\Types.typ" />
-      <File
-        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContAll\Variables.var" />
-    </Task>
-  </TaskClass>
+    Name="Cyclic#2" />
   <TaskClass
     Name="Cyclic#3">
     <Task
@@ -87,6 +70,22 @@
         Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\StaticFFR\Types.typ" />
       <File
         Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\StaticFFR\Variables.var" />
+    </Task>
+    <Task
+      Name="DynamicCo1"
+      Disable="false"
+      Source="DynamicContAll"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\PercivalFaster\X20CP1381\DynamicCo1\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\PercivalFaster\X20CP1381\DynamicCo1\Init.st.var" />
+      <InternalFile
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Temp\Objects\PercivalFaster\X20CP1381\DynamicCo1\Exit.st.var" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContAll\Types.typ" />
+      <File
+        Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContAll\Variables.var" />
     </Task>
     <Task
       Name="Manual"

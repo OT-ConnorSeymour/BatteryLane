@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version="4.9.2.46"?>
+<?AutomationStudio Version="4.9.3.144 SP"?>
 <ConfigurationOptions
   Name="Asfordby"
   Target="SG4"
@@ -8,7 +8,7 @@
   ActivateSdm="true"
   WebServer="true"
   ARMSimulation="False"
-  ArVersion="A4.26">
+  ArVersion="C4.83">
   <ModuleMemoryData>
     <Module
       Name=""

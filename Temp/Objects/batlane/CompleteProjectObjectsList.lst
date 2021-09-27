@@ -1,0 +1,975 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.9.3.144 SP"?>
+<Objects>
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="132762563221187111" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="132757430376502244"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="132616672920000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\operator\Binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="132618296860000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="132618296860000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="132618296860000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="132618296860000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\runtime\Binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="132618296860000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="132618296860000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="132618296860000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="132618296860000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\astime\Binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="132618296860000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="132618296860000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="132618296860000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="132618296860000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\AsIecCon\Binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="132618296860000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="132618296860000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="132618296860000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="132618296860000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\standard\Binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="132618296860000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="132618296860000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\standard\standard.typ"
+    LogicalPath="Libraries.standard.standard.typ"
+    Type="File"
+    LastWriteTime="132618296860000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\standard\standard.var"
+    LogicalPath="Libraries.standard.standard.var"
+    Type="File"
+    LastWriteTime="132618296860000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\MTLookUp\Binary.lby"
+    LogicalPath="Libraries.MTLookUp"
+    Type="Library"
+    LastWriteTime="132616672920000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\MTLookUp\MTLookUp.fun"
+    LogicalPath="Libraries.MTLookUp.MTLookUp.fun"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\MTLookUp\MTLookUp.typ"
+    LogicalPath="Libraries.MTLookUp.MTLookUp.typ"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\MTLookUp\MTLookUp.var"
+    LogicalPath="Libraries.MTLookUp.MTLookUp.var"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\sys_lib\Binary.lby"
+    LogicalPath="Libraries.sys_lib"
+    Type="Library"
+    LastWriteTime="132618296860000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\sys_lib\sys_lib.fun"
+    LogicalPath="Libraries.sys_lib.sys_lib.fun"
+    Type="File"
+    LastWriteTime="132618296860000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\sys_lib\sys_lib.typ"
+    LogicalPath="Libraries.sys_lib.sys_lib.typ"
+    Type="File"
+    LastWriteTime="132618296860000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\sys_lib\sys_lib.var"
+    LogicalPath="Libraries.sys_lib.sys_lib.var"
+    Type="File"
+    LastWriteTime="132618296860000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\brsystem\Binary.lby"
+    LogicalPath="Libraries.brsystem"
+    Type="Library"
+    LastWriteTime="132618296860000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\brsystem\brsystem.fun"
+    LogicalPath="Libraries.brsystem.brsystem.fun"
+    Type="File"
+    LastWriteTime="132618296860000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\brsystem\brsystem.typ"
+    LogicalPath="Libraries.brsystem.brsystem.typ"
+    Type="File"
+    LastWriteTime="132618296860000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\brsystem\brsystem.var"
+    LogicalPath="Libraries.brsystem.brsystem.var"
+    Type="File"
+    LastWriteTime="132618296860000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\MTFilter\Binary.lby"
+    LogicalPath="Libraries.MTFilter"
+    Type="Library"
+    LastWriteTime="132616672920000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\MTFilter\MTFilter.fun"
+    LogicalPath="Libraries.MTFilter.MTFilter.fun"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\MTFilter\MTFilter.typ"
+    LogicalPath="Libraries.MTFilter.MTFilter.typ"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\MTFilter\MTFilter.var"
+    LogicalPath="Libraries.MTFilter.MTFilter.var"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\MTTypes\Binary.lby"
+    LogicalPath="Libraries.MTTypes"
+    Type="Library"
+    LastWriteTime="132616672920000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\MTTypes\MTTypes.fun"
+    LogicalPath="Libraries.MTTypes.MTTypes.fun"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\MTTypes\MTTypes.typ"
+    LogicalPath="Libraries.MTTypes.MTTypes.typ"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\MTTypes\MTTypes.var"
+    LogicalPath="Libraries.MTTypes.MTTypes.var"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\AsBrMath\Binary.lby"
+    LogicalPath="Libraries.AsBrMath"
+    Type="Library"
+    LastWriteTime="132618296840000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\AsBrMath\AsBrMath.fun"
+    LogicalPath="Libraries.AsBrMath.AsBrMath.fun"
+    Type="File"
+    LastWriteTime="132618296840000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\AsBrMath\AsBrMath.typ"
+    LogicalPath="Libraries.AsBrMath.AsBrMath.typ"
+    Type="File"
+    LastWriteTime="132618296840000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\AsBrMath\AsBrMath.var"
+    LogicalPath="Libraries.AsBrMath.AsBrMath.var"
+    Type="File"
+    LastWriteTime="132618296840000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\LoopCont\Binary.lby"
+    LogicalPath="Libraries.LoopCont"
+    Type="Library"
+    LastWriteTime="132616672920000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\LoopCont\LoopCont.var"
+    LogicalPath="Libraries.LoopCont.LoopCont.var"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\LoopCont\LoopCont.typ"
+    LogicalPath="Libraries.LoopCont.LoopCont.typ"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Libraries\LoopCont\LoopCont.fun"
+    LogicalPath="Libraries.LoopCont.LoopCont.fun"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\StaticFFR\IEC.prg"
+    LogicalPath="StaticFFR"
+    Type="Program"
+    LastWriteTime="132616672920000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\StaticFFR\Cyclic.st"
+    LogicalPath="StaticFFR.Cyclic.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\StaticFFR\Init.st"
+    LogicalPath="StaticFFR.Init.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\StaticFFR\Exit.st"
+    LogicalPath="StaticFFR.Exit.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\StaticFFR\Types.typ"
+    LogicalPath="StaticFFR.Types.typ"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\StaticFFR\Variables.var"
+    LogicalPath="StaticFFR.Variables.var"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContAll\IEC.prg"
+    LogicalPath="DynamicContAll"
+    Type="Program"
+    LastWriteTime="132616672920000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContAll\Cyclic.st"
+    LogicalPath="DynamicContAll.Cyclic.st"
+    Type="File"
+    LastWriteTime="132762574814931621"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContAll\Init.st"
+    LogicalPath="DynamicContAll.Init.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContAll\Exit.st"
+    LogicalPath="DynamicContAll.Exit.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContAll\Types.typ"
+    LogicalPath="DynamicContAll.Types.typ"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContAll\Variables.var"
+    LogicalPath="DynamicContAll.Variables.var"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContainment\IEC.prg"
+    LogicalPath="DynamicContainment"
+    Type="Program"
+    LastWriteTime="132616672920000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContainment\Cyclic.st"
+    LogicalPath="DynamicContainment.Cyclic.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContainment\Init.st"
+    LogicalPath="DynamicContainment.Init.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContainment\Exit.st"
+    LogicalPath="DynamicContainment.Exit.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContainment\Types.typ"
+    LogicalPath="DynamicContainment.Types.typ"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContainment\Variables.var"
+    LogicalPath="DynamicContainment.Variables.var"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Visu_Resized\Vc.dob"
+    LogicalPath="Visu_Resized"
+    Type="DataObject"
+    LastWriteTime="132741825409075723" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Visu_Resized\VCObject.vc"
+    LogicalPath="Visu_Resized.VCObject.vc"
+    Type="File"
+    LastWriteTime="132741825414857026"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Visu\Vc.dob"
+    LogicalPath="Visu"
+    Type="DataObject"
+    LastWriteTime="132616672920000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Visu\VCObject.vc"
+    LogicalPath="Visu.VCObject.vc"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Main\IEC.prg"
+    LogicalPath="Main"
+    Type="Program"
+    LastWriteTime="132616672920000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Main\Cyclic.st"
+    LogicalPath="Main.Cyclic.st"
+    Type="File"
+    LastWriteTime="132762563262274570"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Main\Init.st"
+    LogicalPath="Main.Init.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Main\Exit.st"
+    LogicalPath="Main.Exit.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Main\Types.typ"
+    LogicalPath="Main.Types.typ"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Main\Variables.var"
+    LogicalPath="Main.Variables.var"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\IO\IEC.prg"
+    LogicalPath="IO"
+    Type="Program"
+    LastWriteTime="132616672920000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\IO\Cyclic.st"
+    LogicalPath="IO.Cyclic.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\IO\Init.st"
+    LogicalPath="IO.Init.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\IO\Exit.st"
+    LogicalPath="IO.Exit.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\IO\Types.typ"
+    LogicalPath="IO.Types.typ"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\IO\Variables.var"
+    LogicalPath="IO.Variables.var"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Settings\IEC.prg"
+    LogicalPath="Settings"
+    Type="Program"
+    LastWriteTime="132616672920000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Settings\Cyclic.st"
+    LogicalPath="Settings.Cyclic.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Settings\Init.st"
+    LogicalPath="Settings.Init.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Settings\Exit.st"
+    LogicalPath="Settings.Exit.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Settings\Types.typ"
+    LogicalPath="Settings.Types.typ"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Settings\Variables.var"
+    LogicalPath="Settings.Variables.var"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\VisuCtrl\IEC.prg"
+    LogicalPath="VisuCtrl"
+    Type="Program"
+    LastWriteTime="132616672920000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\VisuCtrl\Cyclic.st"
+    LogicalPath="VisuCtrl.Cyclic.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\VisuCtrl\Init.st"
+    LogicalPath="VisuCtrl.Init.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\VisuCtrl\Exit.st"
+    LogicalPath="VisuCtrl.Exit.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\VisuCtrl\Types.typ"
+    LogicalPath="VisuCtrl.Types.typ"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\VisuCtrl\Variables.var"
+    LogicalPath="VisuCtrl.Variables.var"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\RTACTest\IEC.prg"
+    LogicalPath="RTACTest"
+    Type="Program"
+    LastWriteTime="132616672920000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\RTACTest\Cyclic.st"
+    LogicalPath="RTACTest.Cyclic.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\RTACTest\Init.st"
+    LogicalPath="RTACTest.Init.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\RTACTest\Exit.st"
+    LogicalPath="RTACTest.Exit.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\RTACTest\Types.typ"
+    LogicalPath="RTACTest.Types.typ"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\RTACTest\Variables.var"
+    LogicalPath="RTACTest.Variables.var"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Modbus\IEC.prg"
+    LogicalPath="Modbus"
+    Type="Program"
+    LastWriteTime="132616672920000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Modbus\Cyclic.st"
+    LogicalPath="Modbus.Cyclic.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Modbus\Init.st"
+    LogicalPath="Modbus.Init.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Modbus\Exit.st"
+    LogicalPath="Modbus.Exit.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Modbus\Types.typ"
+    LogicalPath="Modbus.Types.typ"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Modbus\Variables.var"
+    LogicalPath="Modbus.Variables.var"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Manual\IEC.prg"
+    LogicalPath="Manual"
+    Type="Program"
+    LastWriteTime="132616672920000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Manual\Cyclic.st"
+    LogicalPath="Manual.Cyclic.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Manual\Init.st"
+    LogicalPath="Manual.Init.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Manual\Exit.st"
+    LogicalPath="Manual.Exit.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Manual\Types.typ"
+    LogicalPath="Manual.Types.typ"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Manual\Variables.var"
+    LogicalPath="Manual.Variables.var"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DCTest\IEC.prg"
+    LogicalPath="DCTest"
+    Type="Program"
+    LastWriteTime="132616672920000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DCTest\Cyclic.st"
+    LogicalPath="DCTest.Cyclic.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DCTest\Init.st"
+    LogicalPath="DCTest.Init.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DCTest\Exit.st"
+    LogicalPath="DCTest.Exit.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DCTest\Types.typ"
+    LogicalPath="DCTest.Types.typ"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DCTest\Variables.var"
+    LogicalPath="DCTest.Variables.var"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Baseline\IEC.prg"
+    LogicalPath="Baseline"
+    Type="Program"
+    LastWriteTime="132616672920000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Baseline\Cyclic.st"
+    LogicalPath="Baseline.Cyclic.st"
+    Type="File"
+    LastWriteTime="132762588382646274"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Baseline\Init.st"
+    LogicalPath="Baseline.Init.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Baseline\Exit.st"
+    LogicalPath="Baseline.Exit.st"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Baseline\Types.typ"
+    LogicalPath="Baseline.Types.typ"
+    Type="File"
+    LastWriteTime="132616672920000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Baseline\Variables.var"
+    LogicalPath="Baseline.Variables.var"
+    Type="File"
+    LastWriteTime="132757431869127433"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DNO_SIGNALS\IEC.prg"
+    LogicalPath="DNO_SIGNALS"
+    Type="Program"
+    LastWriteTime="132738379080000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DNO_SIGNALS\Cyclic.ab"
+    LogicalPath="DNO_SIGNALS.Cyclic.ab"
+    Type="File"
+    LastWriteTime="132757365322509740"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DNO_SIGNALS\Init.ab"
+    LogicalPath="DNO_SIGNALS.Init.ab"
+    Type="File"
+    LastWriteTime="132738420900000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DNO_SIGNALS\Exit.ab"
+    LogicalPath="DNO_SIGNALS.Exit.ab"
+    Type="File"
+    LastWriteTime="132738379080000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DNO_SIGNALS\Types.typ"
+    LogicalPath="DNO_SIGNALS.Types.typ"
+    Type="File"
+    LastWriteTime="132738379080000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DNO_SIGNALS\Variables.var"
+    LogicalPath="DNO_SIGNALS.Variables.var"
+    Type="File"
+    LastWriteTime="132738419600000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Watchdog\IEC.prg"
+    LogicalPath="Watchdog"
+    Type="Program"
+    LastWriteTime="132738411220000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Watchdog\Cyclic.ab"
+    LogicalPath="Watchdog.Cyclic.ab"
+    Type="File"
+    LastWriteTime="132738414460000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Watchdog\Init.ab"
+    LogicalPath="Watchdog.Init.ab"
+    Type="File"
+    LastWriteTime="132738414440000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Watchdog\Exit.ab"
+    LogicalPath="Watchdog.Exit.ab"
+    Type="File"
+    LastWriteTime="132738411220000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Watchdog\Types.typ"
+    LogicalPath="Watchdog.Types.typ"
+    Type="File"
+    LastWriteTime="132738411220000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Watchdog\Variables.var"
+    LogicalPath="Watchdog.Variables.var"
+    Type="File"
+    LastWriteTime="132738416820000000"
+    Private="true" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\Config.pkg"
+    LogicalPath="batlane"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="132738312300000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\Hardware.hw"
+    LogicalPath="batlane.Hardware.hw"
+    Type="File"
+    LastWriteTime="132766274227735951"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\Hardware.hwl"
+    LogicalPath="batlane.Hardware.hwl"
+    Type="File"
+    LastWriteTime="132757574471649023"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\Cpu.pkg"
+    LogicalPath="batlane.X20CP1382"
+    Type="Cpu"
+    LastWriteTime="132766270519656112" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\Cpu.sw"
+    LogicalPath="batlane.X20CP1382.Cpu.sw"
+    Type="File"
+    LastWriteTime="132760916429087262"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\Cpu.per"
+    LogicalPath="batlane.X20CP1382.Cpu.per"
+    Type="File"
+    LastWriteTime="132738312300000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\IoMap.iom"
+    LogicalPath="batlane.X20CP1382.IoMap.iom"
+    Type="File"
+    LastWriteTime="132738401680000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\PvMap.vvm"
+    LogicalPath="batlane.X20CP1382.PvMap.vvm"
+    Type="File"
+    LastWriteTime="132738312300000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\mapp\Package.pkg"
+    LogicalPath="batlane.X20CP1382.mapp"
+    Type="Package"
+    LastWriteTime="132738312300000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\Connectivity\Package.pkg"
+    LogicalPath="batlane.X20CP1382.Connectivity"
+    Type="Package"
+    LastWriteTime="132738312300000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="batlane.X20CP1382.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="132738312300000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\Connectivity\OpcUA\OpcUaMap.uad"
+    LogicalPath="batlane.X20CP1382.Connectivity.OpcUA.OpcUaMap.uad"
+    Type="File"
+    LastWriteTime="132757431857877304"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\TextSystem\Package.pkg"
+    LogicalPath="batlane.X20CP1382.TextSystem"
+    Type="Package"
+    LastWriteTime="132738312300000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\AccessAndSecurity\Package.pkg"
+    LogicalPath="batlane.X20CP1382.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="132738312300000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="batlane.X20CP1382.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="132738312300000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="batlane.X20CP1382.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="132738312300000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="batlane.X20CP1382.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="132738312300000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="batlane.X20CP1382.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="132738312300000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="batlane.X20CP1382.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="132738312300000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="batlane.X20CP1382.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="132738312300000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="batlane.X20CP1382.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="132738312300000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="batlane.X20CP1382.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="132738312300000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="batlane.X20CP1382.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="132738312300000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="batlane.X20CP1382.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="132738312300000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="batlane.X20CP1382.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="132738312300000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="batlane.X20CP1382.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="132738312300000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\VC\Package.pkg"
+    LogicalPath="batlane.X20CP1382.VC"
+    Type="Package"
+    LastWriteTime="132738312300000000" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\VC\PS2-Keyboard.dis"
+    LogicalPath="batlane.X20CP1382.VC.PS2-Keyboard.dis"
+    Type="File"
+    LastWriteTime="132738312300000000"
+    Private="false" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\X20CP1382\mappView\Package.pkg"
+    LogicalPath="batlane.X20CP1382.mappView"
+    Type="Package"
+    LastWriteTime="132766266249348020" />
+  <Object
+    Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\batlane\Hardware.jpg"
+    LogicalPath="batlane.Hardware.jpg"
+    Type="File"
+    LastWriteTime="132757574474617761"
+    Private="false" />
+</Objects>

@@ -38,7 +38,7 @@ PROGRAM _CYCLIC
 		BaselineRamp.x        := 	baselineSP[0]; //current baseline setting
 	ELSE
 		BaselineRamp.x := DCbaselineAdjustmentManual;
-		DCbaselineAdjustmentManual := Local_DCadjMan;
+
 	END_IF;
 
 	BaselineRamp.basetime := baseLCCounter.seccnt;

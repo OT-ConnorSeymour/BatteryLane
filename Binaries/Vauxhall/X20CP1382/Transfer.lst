@@ -14,11 +14,14 @@
   <Operation Delete="IO.br"/>
   <Operation Delete="RTACTest.br"/>
   <Operation Delete="Modbus.br"/>
+  <Operation Delete="mvLoader.br"/>
   <Operation Delete="LoopCont.br"/>
   <Operation Delete="MTLookUp.br"/>
   <Operation Delete="MTFilter.br"/>
   <Operation Delete="asieccon.br"/>
   <Operation Delete="astime.br"/>
+  <Operation Delete="fileio.br"/>
+  <Operation Delete="arssl.br"/>
   <Operation Delete="brsystem.br"/>
   <Operation Delete="sys_lib.br"/>
   <Operation Download="asfw.br" Memory="SystemROM"/>
@@ -38,11 +41,14 @@
   <Operation Download="udbdef.br" Memory="UserROM"/>
   <Operation Download="sys_lib.br" Memory="UserROM"/>
   <Operation Download="brsystem.br" Memory="UserROM"/>
+  <Operation Download="arssl.br" Memory="UserROM"/>
+  <Operation Download="fileio.br" Memory="UserROM"/>
   <Operation Download="astime.br" Memory="UserROM"/>
   <Operation Download="asieccon.br" Memory="UserROM"/>
   <Operation Download="MTFilter.br" Memory="UserROM"/>
   <Operation Download="MTLookUp.br" Memory="UserROM"/>
   <Operation Download="LoopCont.br" Memory="UserROM"/>
+  <Operation Download="mvLoader.br" Memory="UserROM"/>
   <Operation Download="Modbus.br" Memory="UserROM"/>
   <Operation Download="RTACTest.br" Memory="UserROM"/>
   <Operation Download="IO.br" Memory="UserROM"/>

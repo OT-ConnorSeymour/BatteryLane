@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version="4.9.2.46"?>
+<?AutomationStudio Version="4.9.3.144 SP"?>
 <Objects>
   <Object
     Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Package.pkg"
     LogicalPath=""
     Type="Package.ParentUnknown"
-    LastWriteTime="132760940388119590" />
+    LastWriteTime="132762563221187111" />
   <Object
     Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Global.typ"
     LogicalPath="Global.typ"
@@ -343,13 +343,13 @@
     Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContAll\Cyclic.st"
     LogicalPath="DynamicContAll.Cyclic.st"
     Type="File"
-    LastWriteTime="132756494370792903"
+    LastWriteTime="132762574814931621"
     Private="false" />
   <Object
     Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContAll\Init.st"
     LogicalPath="DynamicContAll.Init.st"
     Type="File"
-    LastWriteTime="132616672920000000"
+    LastWriteTime="132767777844707465"
     Private="false" />
   <Object
     Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContAll\Exit.st"
@@ -384,7 +384,7 @@
     Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContainment\Init.st"
     LogicalPath="DynamicContainment.Init.st"
     Type="File"
-    LastWriteTime="132616672920000000"
+    LastWriteTime="132767784612588758"
     Private="false" />
   <Object
     Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\DynamicContainment\Exit.st"
@@ -435,7 +435,7 @@
     Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Main\Cyclic.st"
     LogicalPath="Main.Cyclic.st"
     Type="File"
-    LastWriteTime="132616672920000000"
+    LastWriteTime="132762563262274570"
     Private="false" />
   <Object
     Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Main\Init.st"
@@ -715,7 +715,7 @@
     Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Baseline\Cyclic.st"
     LogicalPath="Baseline.Cyclic.st"
     Type="File"
-    LastWriteTime="132760939730275011"
+    LastWriteTime="132762588382646274"
     Private="false" />
   <Object
     Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Logical\Baseline\Init.st"
@@ -820,7 +820,7 @@
     Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\Asfordby\Hardware.hw"
     LogicalPath="Asfordby.Hardware.hw"
     Type="File"
-    LastWriteTime="132760938759844042"
+    LastWriteTime="132767793294223990"
     Private="false" />
   <Object
     Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\Asfordby\Hardware.hwl"
@@ -832,7 +832,7 @@
     Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\Asfordby\X20CP1381\Cpu.pkg"
     LogicalPath="Asfordby.X20CP1381"
     Type="Cpu"
-    LastWriteTime="132760947409515212" />
+    LastWriteTime="132767793751331603" />
   <Object
     Path="C:\Users\OT-Connor.Seymour\Desktop\BatteryControl\Physical\Asfordby\X20CP1381\Cpu.sw"
     LogicalPath="Asfordby.X20CP1381.Cpu.sw"

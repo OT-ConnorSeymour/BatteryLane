@@ -1,0 +1,26 @@
+VAR
+	Table : MTLookUpTable;
+	mtCONSTANT_END_VALUE : MTLookUpModeEnum;
+	freqDev : REAL;
+	powerOut : REAL;
+	powerRatio : REAL;
+	MAX_INJ_FREQ : UINT;
+	MIN_INJ_FREQ : UINT;
+END_VAR
+VAR CONSTANT
+	GRID_DEADAND : REAL := 0.015;
+END_VAR
+VAR
+	freqDevUINT : UINT;
+	freqDevINT : INT;
+	prevPowerOutput : DINT;
+	MovingAverage : MTFilterMovingAverage;
+	expected : INT;
+	diff : INT;
+	powerOutputTmp : INT;
+	error : REAL;
+	LowPassFilter : MTFilterLowPass;
+	mtBESSEL : MTFilterTypeEnum;
+	filterFreqMA : REAL;
+	filterFreqLowPass : REAL;
+END_VAR

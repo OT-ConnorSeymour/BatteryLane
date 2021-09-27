@@ -1,0 +1,10 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=DynamicCo1 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=3 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                            injFrequency                                     UINT    0 "                                                               0"    0    6    1   10    0    0         
+               DynamicContainmentEnabled                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                          GRID_FREQUENCY                                     REAL    0 "                                                            50.0"    0    8    1   10    0    0         
+                         powerOutputDINT                                     DINT    3 "                                                            -500"    0    4    1   10    0    0         
+                    DCbaselineAdjustment                                      INT    0 "                                                            -500"    0    3    1   10    0    0         
+                                 freqDev                                     REAL    0 "                                                      0.02999878"    0    8    1   10    1    0         
+                              powerRatio                                     REAL    0 "                                                             0.0"    0    8    1   10    1    0         

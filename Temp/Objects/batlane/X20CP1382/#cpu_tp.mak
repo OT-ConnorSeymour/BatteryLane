@@ -20,7 +20,7 @@ export AS_TEMP_PLC := X20CP1382
 export AS_USER_NAME := OT-Connor.Seymour
 export AS_CONFIGURATION := batlane
 export AS_COMPANY_NAME := \ 
-export AS_VERSION := 4.9.2.46
+export AS_VERSION := 4.9.3.144\ SP
 export AS_WORKINGVERSION := 4.9
 
 

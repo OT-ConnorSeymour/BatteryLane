@@ -9,9 +9,9 @@ PROGRAM _INIT
 	Table.NodeVectorX[3] := -1*GRID_DEADAND+0.001;	Table.FcnValues[3] := 0;   
 	Table.NodeVectorX[4] := GRID_DEADAND-0.001;		Table.FcnValues[4] := 0;
 	//LF & HF
-//	Table.NodeVectorX[5] := 0.02;			Table.FcnValues[5] := -0.135;   
-//	Table.NodeVectorX[6] := 0.2;					Table.FcnValues[6] := -5;   
-	//	Table.NodeVectorX[7] := 0.5;					Table.FcnValues[7] := -100;  
+	Table.NodeVectorX[5] := 0.02;					Table.FcnValues[5] := -0.135;   
+	Table.NodeVectorX[6] := 0.2;					Table.FcnValues[6] := -5;   
+	Table.NodeVectorX[7] := 0.5;					Table.FcnValues[7] := -100;  
 	
 	//LF Only
 	Table.NodeVectorX[5] := 0.02;			Table.FcnValues[5] := 0;   

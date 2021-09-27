@@ -21,6 +21,6 @@
     <Object Type="Program" Language="IEC">Baseline</Object>
     <Object Type="Program" Language="IEC">DNO_SIGNALS</Object>
     <Object Type="Program" Language="IEC">Watchdog</Object>
-    <Object Type="Package">mappView</Object>
+    <Object Type="Program" Language="IEC">DynamicContAll_BatLane</Object>
   </Objects>
 </Package>

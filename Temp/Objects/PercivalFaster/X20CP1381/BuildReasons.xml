@@ -1,374 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BuildReasons>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\opcuamap\opcuamap.uar.gz">
-    <BuildReason>Target "opcuamap.uar.gz" does not exist</BuildReason>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\iat_media.job._markerfile">
+    <BuildReason>Target "iat_media.job._markerfile" does not exist</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\arconfig.br">
-    <BuildReason>ExternalCommand line differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\percivalfaster\hardware.hw" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\dynamicco1\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
+  <Rule ID=".mappView_Build">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_IntegrationBuild">
+    <BuildReason>Rule contains a phony target. </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\dynamicco1\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\dynamicco1\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\dynamiccontall\init.st" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\dynamicco1\_bur_pvdef.st.o">
-    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\dynamicco1\a.out">
-    <BuildReason>ExternalCommand line differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\dynamicco1\init.st.o" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\sysconf.br">
-    <BuildReason>ExternalCommand line differs.
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\dynamicco1\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\dynamicco1\init.st.o" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\dynamicco1\dynamicco1.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\asfw.br">
-    <BuildReason>ExternalCommand line differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\dynamicco1\a.out" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\dynamicco1.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\ashwd.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\modbus\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\rtactest\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\rtactest\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\modbus\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\rtactest\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\rtactest\_bur_pvdef.st.o">
-    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\modbus\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\rtactest\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\modbus\_bur_pvdef.st.o">
-    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\modbus\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\rtactest\rtactest.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\io\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\io\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\io\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\io\_bur_pvdef.st.o">
-    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\io\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\modbus\modbus.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\modbus.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\rtactest.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\staticffr\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\staticffr\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\staticffr\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\staticffr\_bur_pvdef.st.o">
-    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\staticffr\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\io\io.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\io.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\manual\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\manual\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\manual\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\manual\_bur_pvdef.st.o">
-    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\manual\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\staticffr\staticffr.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\staticffr.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\dctest\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\dctest\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\manual\manual.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\manual.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\dctest\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\dctest\_bur_pvdef.st.o">
-    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\dctest\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\main\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\main\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\main\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\main\_bur_pvdef.st.o">
-    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\main\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\dctest\dctest.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\dctest.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\main\main.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\settings\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\settings\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\settings\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\settings\_bur_pvdef.st.o">
-    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\settings\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\main.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\visuctrl\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\visuctrl\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\visuctrl\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\visuctrl\_bur_pvdef.st.o">
-    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\visuctrl\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\settings\settings.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\settings.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\baseline\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\baseline\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\visuctrl\visuctrl.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\baseline\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\visuctrl.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\baseline\_bur_pvdef.st.o">
-    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\baseline\a.out">
-    <BuildReason>ExternalCommand line differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\dynamicco1\dynamicco1.ox" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\ashwac.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\baseline\baseline.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\baseline.br">
-    <BuildReason>ExternalCommand line differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\percivalfaster\hardware.hw" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\iomap.br">
-    <BuildReason>ExternalCommand line differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\percivalfaster\hardware.hw" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\tcdata\tcdata.imx">
-    <BuildReason>ExternalCommand line differs.
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\sysconf.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\percivalfaster\hardware.hw" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\role.br">
-    <BuildReason>ExternalCommand line differs.
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\asfw.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\percivalfaster\hardware.hw" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\user.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\standard.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\sys_lib.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\brsystem.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\runtime.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\asbrmath.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\tcdata\tcdata.s18d">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\tcdata\tcdata.imx" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\tcdata.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\tcdata\tcdata.s18d" differs.
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\ashwd.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\percivalfaster\hardware.hw" differs.
 </BuildReason>
   </Rule>
   <Rule ID="#cpu_tp.mak">
     <BuildReason>Rule is forced.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\binaries\percivalfaster\x20cp1381\transfer.lst">
-    <BuildReason>Prerequisite "$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\opcuamap.br" removed.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\percivalfaster\x20cp1381\sysconf.br" differs.
 </BuildReason>
   </Rule>
 </BuildReasons>

@@ -1,374 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BuildReasons>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\arconfig.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\opcuamap\opcuamap.uar.gz">
-    <BuildReason>Target "opcuamap.uar.gz" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\sysconf.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\asfw.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\modbus\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\modbus\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\modbus\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\modbus\_bur_pvdef.st.o">
-    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\modbus\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\modbus\modbus.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\ashwd.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\modbus.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\rtactest\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\io\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\io\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\io\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\io\_bur_pvdef.st.o">
-    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\io\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\rtactest\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\rtactest\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\rtactest\_bur_pvdef.st.o">
-    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\rtactest\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\io\io.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\dynamiccon\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\iat_media.job._markerfile">
+    <BuildReason>Target "iat_media.job._markerfile" does not exist</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\dynamiccon\init.st.o">
-    <BuildReason>ExternalCommand line differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\dynamiccontainment\init.st" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\dynamiccon\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
+  <Rule ID=".mappView_Build">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_IntegrationBuild">
+    <BuildReason>Rule contains a phony target. </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\dynamiccon\_bur_pvdef.st.o">
-    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\dynamiccon\init.st.o" differs.
+</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\dynamiccon\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\rtactest\rtactest.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\rtactest.br">
-    <BuildReason>ExternalCommand line differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\dynamiccon\init.st.o" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\dynamiccon\dynamiccon.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\staticffr\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\staticffr\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\staticffr\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\staticffr\_bur_pvdef.st.o">
-    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\staticffr\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\io.br">
-    <BuildReason>ExternalCommand line differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\dynamiccon\a.out" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\dynamiccon.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\staticffr\staticffr.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\manual\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\staticffr.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\manual\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\manual\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\manual\_bur_pvdef.st.o">
-    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\manual\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\dctest\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\dctest\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\dctest\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\dctest\_bur_pvdef.st.o">
-    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\dctest\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\manual\manual.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\manual.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\main\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\main\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\main\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\main\_bur_pvdef.st.o">
-    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\dctest\dctest.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\main\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\dctest.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\settings\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\settings\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\settings\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\settings\_bur_pvdef.st.o">
-    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\settings\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\main\main.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\main.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\visuctrl\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\visuctrl\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\visuctrl\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\visuctrl\_bur_pvdef.st.o">
-    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\visuctrl\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\settings\settings.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\settings.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\baseline\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\baseline\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\baseline\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\baseline\_bur_pvdef.st.o">
-    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\baseline\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\visuctrl\visuctrl.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\visuctrl.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\ashwac.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\baseline\baseline.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\baseline.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\iomap.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\tcdata\tcdata.imx">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\tcdata\tcdata.s18d">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\tcdata\tcdata.imx" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\role.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\user.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\standard.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\sys_lib.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\brsystem.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\runtime.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\asbrmath.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\tcdata.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\tcdata\tcdata.s18d" differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\dynamiccon\dynamiccon.ox" differs.
 </BuildReason>
   </Rule>
   <Rule ID="#cpu_tp.mak">
     <BuildReason>Rule is forced.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\binaries\vauxhall\x20cp1382\transfer.lst">
-    <BuildReason>Prerequisite "$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\opcuamap.br" removed.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\vauxhall\x20cp1382\dynamiccon.br" differs.
 </BuildReason>
   </Rule>
 </BuildReasons>

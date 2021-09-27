@@ -1,4 +1,4 @@
 $(AS_PROJECT_PATH)/Logical/Libraries/LoopCont/LoopCont.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/brsystem/brsystem.fun
-$(AS_PROJECT_PATH)/Logical/Global.var
 $(AS_PROJECT_PATH)/Logical/DCTest/Variables.var
+$(AS_PROJECT_PATH)/Logical/Global.var

@@ -13,10 +13,11 @@
     <Object Type="Package">VC</Object>
   </Objects>
   <Configuration ModuleId="X20CP1381">
-    <AutomationRuntime Version="A4.26" />
+    <AutomationRuntime Version="C4.83" />
     <Build GccVersion="4.1.2" />
     <DefaultTargetMemory Tasks="UserROM" />
     <Safety SafetyRelease="0.0" />
+    <Transfer SavedOfflineInstallationFolder="" SavedPipDestinationFolder="" SavedRuntimeUtilityCenterPackagePath="" />
     <Vc FirmwareVersion="V4.72.2" />
     <OnlineConfiguration Name="Asfordby" DeviceType="TCPIP" DeviceParameters="/IF=tcpip /LOPO=11159 /SA=1" ConnectionParameters="/RT=1000 /AM=* /DAIP=172.18.196.178 /REPO=11159 /ANSL=1" Description="" />
   </Configuration>
