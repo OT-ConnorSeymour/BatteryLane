@@ -3,7 +3,7 @@
 <State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
   <TreeView ID="LogicalTree" EditColumn="0" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
     <Columns>
-      <Column Index="0" Width="149" Position="0" />
+      <Column Index="0" Width="165" Position="0" />
       <Column Index="1" Width="100" Position="1" />
       <Column Index="2" Width="0" Position="2" />
     </Columns>
@@ -16,13 +16,12 @@
       <ExpandedNode Row="31" />
       <ExpandedNode Row="39" />
       <ExpandedNode Row="45" />
-      <ExpandedNode Row="52" />
-      <ExpandedNode Row="58" />
-      <ExpandedNode Row="64" />
-      <ExpandedNode Row="70" />
+      <ExpandedNode Row="51" />
+      <ExpandedNode Row="57" />
+      <ExpandedNode Row="63" />
     </ExpandedNodes>
     <SelectedNodes>
-      <SelectedNode Row="6" />
+      <SelectedNode Row="46" />
     </SelectedNodes>
     <ZoomIndices />
   </TreeView>

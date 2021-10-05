@@ -9,4 +9,5 @@ VAR
 	TX123OPEN : BOOL; (*TXFeeder123Open*)
 	BreakerNotOpenAlarm : BOOL;
 	ElapsedTime : UDINT;
+	ManualModeEnable : BOOL;
 END_VAR

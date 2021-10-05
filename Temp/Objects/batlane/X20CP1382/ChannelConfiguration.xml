@@ -106,6 +106,20 @@
     <Channel ID="activePower" Description="" Ext="/HW" Direction="IN" Type="INT" />
     <Channel ID="SOC" Description="" Ext="/HW" Direction="IN" Type="UINT" />
     <Channel ID="MDU_Lofreq_Full_delivery_bp" Description="" Ext="/HW" Direction="OUT" Type="DINT" />
+    <Channel ID="MDU_Lofreq_Full_delivery_bp_read" Description="" Ext="/HW" Direction="IN" Type="DINT" />
+    <Channel ID="MDU_dc_plant_capacity" Description="" Ext="/HW" Direction="OUT" Type="DINT" />
+    <Channel ID="MDU_dc_plant_capacity_read" Description="" Ext="/HW" Direction="IN" Type="DINT" />
+    <Channel ID="MDU_dc_power_baseline_shift_setpoint" Description="" Ext="/HW" Direction="IN" Type="DINT" />
+    <Channel ID="MDU_dc_power_baseline_shift_setpoint_Write" Description="" Ext="/HW" Direction="OUT" Type="DINT" />
+    <Channel ID="MDU_dc_high_frequency_plant_capacity" Description="" Ext="/HW" Direction="IN" Type="DINT" />
+    <Channel ID="MDU_dc_high_frequency_plant_capacity_write" Description="" Ext="/HW" Direction="OUT" Type="DINT" />
+    <Channel ID="MDU_dc_low_frequency_plant_capacity" Description="" Ext="/HW" Direction="IN" Type="DINT" />
+    <Channel ID="MDU_dc_low_frequency_plant_capacity_write" Description="" Ext="/HW" Direction="OUT" Type="BOOL" />
+    <Channel ID="MDU_dc_high_frequency_control_enable" Description="" Ext="/HW" Direction="OUT" Type="BOOL" />
+    <Channel ID="MDU_dc_high_frequency_control_enable_Read" Description="" Ext="/HW" Direction="IN" Type="BOOL" />
+    <Channel ID="MDU_dc_low_frequency_control_enable" Description="" Ext="/HW" Direction="IN" Type="BOOL" />
+    <Channel ID="MDU_dc_low_frequency_control_enable_Write" Description="" Ext="/HW" Direction="OUT" Type="BOOL" />
+    <Channel ID="Stage_1_Constraint" Description="" Ext="/HW" Direction="OUT" Type="BOOL" />
   </Module>
   <Module ID="X1" Hardware="X1" HardwareModuleName="X1" ModuleID="23" Simulatable="true">
     <Channel ID="DigitalInput01" Description="24 VDC, 0.2 to 25 ms switching delay, sink" Address="0x0000" BitOffset="0" Direction="IN" Type="BOOL" Sig_Dig_24VDC="1" />

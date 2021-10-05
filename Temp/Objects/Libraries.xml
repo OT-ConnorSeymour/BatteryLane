@@ -27,7 +27,7 @@
     Version="" />
   <Library
     Name="LoopCont"
-    IsDeployed="false"
+    IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
     Version="3.03.2" />

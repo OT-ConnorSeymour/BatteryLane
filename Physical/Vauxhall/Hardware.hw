@@ -9,7 +9,7 @@
     <Parameter ID="UnitId" Value="1" />
     <Group ID="Cb_1" />
     <Parameter ID="Cb_1_FunCode" Value="16" />
-    <Parameter ID="Cb_1_RefreshTime" Value="50" />
+    <Parameter ID="Cb_1_RefreshTime" Value="500" />
     <Parameter ID="Cb_1_SendMode" Value="2" />
     <Parameter ID="Cb_1_AddrExt" Value="30" />
     <Parameter ID="Cb_1_NumItemsExt" Value="2" />

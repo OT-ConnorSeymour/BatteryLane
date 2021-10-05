@@ -16,9 +16,9 @@
   </Module>
   <Module ID="IF2.MODBUS" Hardware="MODBUS">
     <Parameter ID="NumSlaves" Value="1" Type="INT" />
-    <Parameter ID="NumAllBlocks" Value="6" Type="INT" />
-    <Parameter ID="MemSizeIn" Value="48" Type="DINT" />
-    <Parameter ID="MemSizeOut" Value="80" Type="DINT" />
+    <Parameter ID="NumAllBlocks" Value="13" Type="INT" />
+    <Parameter ID="MemSizeIn" Value="224" Type="DINT" />
+    <Parameter ID="MemSizeOut" Value="201" Type="DINT" />
     <Parameter ID="ModbusMaster" Value="1" />
     <Parameter ID="ModbusSlave" Value="0" />
     <Parameter ID="SlaveDiagnostics" Value="0" />
@@ -39,7 +39,7 @@
     <Parameter ID="Response" Value="1500" Type="INT" />
     <Parameter ID="PnpTimer" Value="10" Type="INT" />
     <Parameter ID="ResetOutputs" Value="off" />
-    <Parameter ID="NumBlocks" Value="6" Type="INT" />
+    <Parameter ID="NumBlocks" Value="13" Type="INT" />
     <Parameter ID="Cb_1_FunCode" Value="16" Type="INT" />
     <Parameter ID="Cb_1_RefreshTime" Value="50" Type="INT" />
     <Parameter ID="Cb_1_SendMode" Value="2" Type="INT" />
@@ -100,7 +100,7 @@
     <Parameter ID="Cb_5_C_1_Name" Value="SOC" />
     <Parameter ID="Cb_5_C_1_Datatype" Value="6" />
     <Parameter ID="Cb_5_C_1_Dir" Value="0" />
-    <Parameter ID="Cb_6_FunCode" Value="16" Type="INT" />
+    <Parameter ID="Cb_6_FunCode" Value="23" Type="INT" />
     <Parameter ID="Cb_6_RefreshTime" Value="500" Type="INT" />
     <Parameter ID="Cb_6_SendMode" Value="0" Type="INT" />
     <Parameter ID="Cb_6_Addr" Value="7580" Type="UINT" />
@@ -112,6 +112,125 @@
     <Parameter ID="Cb_6_C_1_Name" Value="MDU_Lofreq_Full_delivery_bp" />
     <Parameter ID="Cb_6_C_1_Datatype" Value="4" />
     <Parameter ID="Cb_6_C_1_Dir" Value="1" />
+    <Parameter ID="Cb_6_C_2_BitoffsetIn" Value="48" Type="DINT" />
+    <Parameter ID="Cb_6_C_2_BitoffsetOut" Value="80" Type="DINT" />
+    <Parameter ID="Cb_6_C_2_Name" Value="MDU_Lofreq_Full_delivery_bp_read" />
+    <Parameter ID="Cb_6_C_2_Datatype" Value="4" />
+    <Parameter ID="Cb_6_C_2_Dir" Value="0" />
+    <Parameter ID="Cb_7_FunCode" Value="23" Type="INT" />
+    <Parameter ID="Cb_7_RefreshTime" Value="100" Type="INT" />
+    <Parameter ID="Cb_7_SendMode" Value="0" Type="INT" />
+    <Parameter ID="Cb_7_Addr" Value="7636" Type="UINT" />
+    <Parameter ID="Cb_7_NumItems" Value="2" Type="INT" />
+    <Parameter ID="Cb_7_AddrExt" Value="7636" Type="UINT" />
+    <Parameter ID="Cb_7_NumItemsExt" Value="2" Type="INT" />
+    <Parameter ID="Cb_7_C_1_BitoffsetIn" Value="80" Type="DINT" />
+    <Parameter ID="Cb_7_C_1_BitoffsetOut" Value="80" Type="DINT" />
+    <Parameter ID="Cb_7_C_1_Name" Value="MDU_dc_plant_capacity" />
+    <Parameter ID="Cb_7_C_1_Datatype" Value="4" />
+    <Parameter ID="Cb_7_C_1_Dir" Value="1" />
+    <Parameter ID="Cb_7_C_2_BitoffsetIn" Value="80" Type="DINT" />
+    <Parameter ID="Cb_7_C_2_BitoffsetOut" Value="112" Type="DINT" />
+    <Parameter ID="Cb_7_C_2_Name" Value="MDU_dc_plant_capacity_read" />
+    <Parameter ID="Cb_7_C_2_Datatype" Value="4" />
+    <Parameter ID="Cb_7_C_2_Dir" Value="0" />
+    <Parameter ID="Cb_8_FunCode" Value="23" Type="INT" />
+    <Parameter ID="Cb_8_RefreshTime" Value="100" Type="INT" />
+    <Parameter ID="Cb_8_SendMode" Value="0" Type="INT" />
+    <Parameter ID="Cb_8_Addr" Value="7638" Type="UINT" />
+    <Parameter ID="Cb_8_NumItems" Value="2" Type="INT" />
+    <Parameter ID="Cb_8_AddrExt" Value="7638" Type="UINT" />
+    <Parameter ID="Cb_8_NumItemsExt" Value="2" Type="INT" />
+    <Parameter ID="Cb_8_C_1_BitoffsetIn" Value="112" Type="DINT" />
+    <Parameter ID="Cb_8_C_1_BitoffsetOut" Value="112" Type="DINT" />
+    <Parameter ID="Cb_8_C_1_Name" Value="MDU_dc_power_baseline_shift_setpoint" />
+    <Parameter ID="Cb_8_C_1_Datatype" Value="4" />
+    <Parameter ID="Cb_8_C_1_Dir" Value="0" />
+    <Parameter ID="Cb_8_C_2_BitoffsetIn" Value="144" Type="DINT" />
+    <Parameter ID="Cb_8_C_2_BitoffsetOut" Value="112" Type="DINT" />
+    <Parameter ID="Cb_8_C_2_Name" Value="MDU_dc_power_baseline_shift_setpoint_Write" />
+    <Parameter ID="Cb_8_C_2_Datatype" Value="4" />
+    <Parameter ID="Cb_8_C_2_Dir" Value="1" />
+    <Parameter ID="Cb_9_FunCode" Value="23" Type="INT" />
+    <Parameter ID="Cb_9_RefreshTime" Value="100" Type="INT" />
+    <Parameter ID="Cb_9_SendMode" Value="0" Type="INT" />
+    <Parameter ID="Cb_9_Addr" Value="7640" Type="UINT" />
+    <Parameter ID="Cb_9_NumItems" Value="2" Type="INT" />
+    <Parameter ID="Cb_9_AddrExt" Value="7640" Type="UINT" />
+    <Parameter ID="Cb_9_NumItemsExt" Value="2" Type="INT" />
+    <Parameter ID="Cb_9_C_1_BitoffsetIn" Value="144" Type="DINT" />
+    <Parameter ID="Cb_9_C_1_BitoffsetOut" Value="144" Type="DINT" />
+    <Parameter ID="Cb_9_C_1_Name" Value="MDU_dc_high_frequency_plant_capacity" />
+    <Parameter ID="Cb_9_C_1_Datatype" Value="4" />
+    <Parameter ID="Cb_9_C_1_Dir" Value="0" />
+    <Parameter ID="Cb_9_C_2_BitoffsetIn" Value="176" Type="DINT" />
+    <Parameter ID="Cb_9_C_2_BitoffsetOut" Value="144" Type="DINT" />
+    <Parameter ID="Cb_9_C_2_Name" Value="MDU_dc_high_frequency_plant_capacity_write" />
+    <Parameter ID="Cb_9_C_2_Datatype" Value="4" />
+    <Parameter ID="Cb_9_C_2_Dir" Value="1" />
+    <Parameter ID="Cb_10_FunCode" Value="23" Type="INT" />
+    <Parameter ID="Cb_10_RefreshTime" Value="100" Type="INT" />
+    <Parameter ID="Cb_10_SendMode" Value="0" Type="INT" />
+    <Parameter ID="Cb_10_Addr" Value="7642" Type="UINT" />
+    <Parameter ID="Cb_10_NumItems" Value="2" Type="INT" />
+    <Parameter ID="Cb_10_AddrExt" Value="7642" Type="UINT" />
+    <Parameter ID="Cb_10_NumItemsExt" Value="1" Type="INT" />
+    <Parameter ID="Cb_10_C_1_BitoffsetIn" Value="176" Type="DINT" />
+    <Parameter ID="Cb_10_C_1_BitoffsetOut" Value="176" Type="DINT" />
+    <Parameter ID="Cb_10_C_1_Name" Value="MDU_dc_low_frequency_plant_capacity" />
+    <Parameter ID="Cb_10_C_1_Datatype" Value="4" />
+    <Parameter ID="Cb_10_C_1_Dir" Value="0" />
+    <Parameter ID="Cb_10_C_2_BitoffsetIn" Value="208" Type="DINT" />
+    <Parameter ID="Cb_10_C_2_BitoffsetOut" Value="176" Type="DINT" />
+    <Parameter ID="Cb_10_C_2_Name" Value="MDU_dc_low_frequency_plant_capacity_write" />
+    <Parameter ID="Cb_10_C_2_Datatype" Value="1" />
+    <Parameter ID="Cb_10_C_2_Dir" Value="1" />
+    <Parameter ID="Cb_11_FunCode" Value="23" Type="INT" />
+    <Parameter ID="Cb_11_RefreshTime" Value="100" Type="INT" />
+    <Parameter ID="Cb_11_SendMode" Value="0" Type="INT" />
+    <Parameter ID="Cb_11_Addr" Value="7644" Type="UINT" />
+    <Parameter ID="Cb_11_NumItems" Value="1" Type="INT" />
+    <Parameter ID="Cb_11_AddrExt" Value="7644" Type="UINT" />
+    <Parameter ID="Cb_11_NumItemsExt" Value="1" Type="INT" />
+    <Parameter ID="Cb_11_C_1_BitoffsetIn" Value="208" Type="DINT" />
+    <Parameter ID="Cb_11_C_1_BitoffsetOut" Value="184" Type="DINT" />
+    <Parameter ID="Cb_11_C_1_Name" Value="MDU_dc_high_frequency_control_enable" />
+    <Parameter ID="Cb_11_C_1_Datatype" Value="1" />
+    <Parameter ID="Cb_11_C_1_Dir" Value="1" />
+    <Parameter ID="Cb_11_C_2_BitoffsetIn" Value="208" Type="DINT" />
+    <Parameter ID="Cb_11_C_2_BitoffsetOut" Value="185" Type="DINT" />
+    <Parameter ID="Cb_11_C_2_Name" Value="MDU_dc_high_frequency_control_enable_Read" />
+    <Parameter ID="Cb_11_C_2_Datatype" Value="1" />
+    <Parameter ID="Cb_11_C_2_Dir" Value="0" />
+    <Parameter ID="Cb_12_FunCode" Value="23" Type="INT" />
+    <Parameter ID="Cb_12_RefreshTime" Value="100" Type="INT" />
+    <Parameter ID="Cb_12_SendMode" Value="0" Type="INT" />
+    <Parameter ID="Cb_12_Addr" Value="7646" Type="UINT" />
+    <Parameter ID="Cb_12_NumItems" Value="1" Type="INT" />
+    <Parameter ID="Cb_12_AddrExt" Value="7646" Type="UINT" />
+    <Parameter ID="Cb_12_NumItemsExt" Value="1" Type="INT" />
+    <Parameter ID="Cb_12_C_1_BitoffsetIn" Value="216" Type="DINT" />
+    <Parameter ID="Cb_12_C_1_BitoffsetOut" Value="192" Type="DINT" />
+    <Parameter ID="Cb_12_C_1_Name" Value="MDU_dc_low_frequency_control_enable" />
+    <Parameter ID="Cb_12_C_1_Datatype" Value="1" />
+    <Parameter ID="Cb_12_C_1_Dir" Value="0" />
+    <Parameter ID="Cb_12_C_2_BitoffsetIn" Value="217" Type="DINT" />
+    <Parameter ID="Cb_12_C_2_BitoffsetOut" Value="192" Type="DINT" />
+    <Parameter ID="Cb_12_C_2_Name" Value="MDU_dc_low_frequency_control_enable_Write" />
+    <Parameter ID="Cb_12_C_2_Datatype" Value="1" />
+    <Parameter ID="Cb_12_C_2_Dir" Value="1" />
+    <Parameter ID="Cb_13_FunCode" Value="16" Type="INT" />
+    <Parameter ID="Cb_13_RefreshTime" Value="100" Type="INT" />
+    <Parameter ID="Cb_13_SendMode" Value="0" Type="INT" />
+    <Parameter ID="Cb_13_Addr" Value="42" Type="UINT" />
+    <Parameter ID="Cb_13_NumItems" Value="1" Type="INT" />
+    <Parameter ID="Cb_13_AddrExt" Value="42" Type="UINT" />
+    <Parameter ID="Cb_13_NumItemsExt" Value="1" Type="INT" />
+    <Parameter ID="Cb_13_C_1_BitoffsetIn" Value="224" Type="DINT" />
+    <Parameter ID="Cb_13_C_1_BitoffsetOut" Value="200" Type="DINT" />
+    <Parameter ID="Cb_13_C_1_Name" Value="Stage_1_Constraint" />
+    <Parameter ID="Cb_13_C_1_Datatype" Value="1" />
+    <Parameter ID="Cb_13_C_1_Dir" Value="1" />
     <Channel ID="ModuleOk">
       <Parameter ID="Ext" Value="/HW" />
       <Parameter ID="Direction" Value="IN" />
@@ -271,6 +390,76 @@
       <Parameter ID="Ext" Value="/HW" />
       <Parameter ID="Direction" Value="OUT" />
       <Parameter ID="Type" Value="DINT" />
+    </Channel>
+    <Channel ID="MDU_Lofreq_Full_delivery_bp_read">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="DINT" />
+    </Channel>
+    <Channel ID="MDU_dc_plant_capacity">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="DINT" />
+    </Channel>
+    <Channel ID="MDU_dc_plant_capacity_read">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="DINT" />
+    </Channel>
+    <Channel ID="MDU_dc_power_baseline_shift_setpoint">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="DINT" />
+    </Channel>
+    <Channel ID="MDU_dc_power_baseline_shift_setpoint_Write">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="DINT" />
+    </Channel>
+    <Channel ID="MDU_dc_high_frequency_plant_capacity">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="DINT" />
+    </Channel>
+    <Channel ID="MDU_dc_high_frequency_plant_capacity_write">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="DINT" />
+    </Channel>
+    <Channel ID="MDU_dc_low_frequency_plant_capacity">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="DINT" />
+    </Channel>
+    <Channel ID="MDU_dc_low_frequency_plant_capacity_write">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="MDU_dc_high_frequency_control_enable">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="MDU_dc_high_frequency_control_enable_Read">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="MDU_dc_low_frequency_control_enable">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="MDU_dc_low_frequency_control_enable_Write">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="Stage_1_Constraint">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="BOOL" />
     </Channel>
   </Module>
   <Module ID="IF3" Hardware="X20CP1382">

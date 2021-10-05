@@ -19,7 +19,29 @@ PROGRAM _CYCLIC
 	
 	IF Stage1_Output = FALSE THEN 
 		Stage1_Confirmed := FALSE;
-		ENDIF
+	ENDIF
+	
+
+	
+;
+;
+;	
+	IF Stage1_Output = FALSE THEN 
+		ManualModeEnable:= FALSE;
+	ENDIF
+	
+	IF Stage1_Output = TRUE THEN
+	ManualModeEnable := TRUE;
+	ENDIF
+;	
+;	IF	ManualModeEnable = TRUE THEN 	
+;	cmdToManual := TRUE;
+;	ENDIF	
+;		
+;	IF ManualModeEnable = TRUE AND Stage1_Confirmed = TRUE THEN
+;		powerOutputManual := 0;	
+;	ENDIF
+;		
 	
 	IF Stage2_Input = TRUE AND TX123OPEN = TRUE THEN
 		Stage2_Output:= TRUE;
@@ -43,11 +65,6 @@ PROGRAM _CYCLIC
 	
 	TON_10ms(Stage2_Input AND NOT TX123OPEN, 1000, BreakerNotOpenAlarm, ElapsedTime);
 	 
-		
-		
-	
-		
-	
 	
 	
 END_PROGRAM

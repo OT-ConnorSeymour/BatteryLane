@@ -333,6 +333,48 @@
 <LN ID="%QD.IF2.ST1.MDU_Lofreq_Full_delivery_bp" Type="DINT">
 <Cons Device="IF2.ST1" DPName="MDU_Lofreq_Full_delivery_bp" Kind="io"/>
 </LN>
+<LN ID="%ID.IF2.ST1.MDU_Lofreq_Full_delivery_bp_read" Type="DINT">
+<Prod Device="IF2.ST1" DPName="MDU_Lofreq_Full_delivery_bp_read" Kind="io"/>
+</LN>
+<LN ID="%QD.IF2.ST1.MDU_dc_plant_capacity" Type="DINT">
+<Cons Device="IF2.ST1" DPName="MDU_dc_plant_capacity" Kind="io"/>
+</LN>
+<LN ID="%ID.IF2.ST1.MDU_dc_plant_capacity_read" Type="DINT">
+<Prod Device="IF2.ST1" DPName="MDU_dc_plant_capacity_read" Kind="io"/>
+</LN>
+<LN ID="%ID.IF2.ST1.MDU_dc_power_baseline_shift_setpoint" Type="DINT">
+<Prod Device="IF2.ST1" DPName="MDU_dc_power_baseline_shift_setpoint" Kind="io"/>
+</LN>
+<LN ID="%QD.IF2.ST1.MDU_dc_power_baseline_shift_setpoint_Write" Type="DINT">
+<Cons Device="IF2.ST1" DPName="MDU_dc_power_baseline_shift_setpoint_Write" Kind="io"/>
+</LN>
+<LN ID="%ID.IF2.ST1.MDU_dc_high_frequency_plant_capacity" Type="DINT">
+<Prod Device="IF2.ST1" DPName="MDU_dc_high_frequency_plant_capacity" Kind="io"/>
+</LN>
+<LN ID="%QD.IF2.ST1.MDU_dc_high_frequency_plant_capacity_write" Type="DINT">
+<Cons Device="IF2.ST1" DPName="MDU_dc_high_frequency_plant_capacity_write" Kind="io"/>
+</LN>
+<LN ID="%ID.IF2.ST1.MDU_dc_low_frequency_plant_capacity" Type="DINT">
+<Prod Device="IF2.ST1" DPName="MDU_dc_low_frequency_plant_capacity" Kind="io"/>
+</LN>
+<LN ID="%QX.IF2.ST1.MDU_dc_low_frequency_plant_capacity_write" Type="BOOL">
+<Cons Device="IF2.ST1" DPName="MDU_dc_low_frequency_plant_capacity_write" Kind="io"/>
+</LN>
+<LN ID="%QX.IF2.ST1.MDU_dc_high_frequency_control_enable" Type="BOOL">
+<Cons Device="IF2.ST1" DPName="MDU_dc_high_frequency_control_enable" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.ST1.MDU_dc_high_frequency_control_enable_Read" Type="BOOL">
+<Prod Device="IF2.ST1" DPName="MDU_dc_high_frequency_control_enable_Read" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.ST1.MDU_dc_low_frequency_control_enable" Type="BOOL">
+<Prod Device="IF2.ST1" DPName="MDU_dc_low_frequency_control_enable" Kind="io"/>
+</LN>
+<LN ID="%QX.IF2.ST1.MDU_dc_low_frequency_control_enable_Write" Type="BOOL">
+<Cons Device="IF2.ST1" DPName="MDU_dc_low_frequency_control_enable_Write" Kind="io"/>
+</LN>
+<LN ID="%QX.IF2.ST1.Stage_1_Constraint" Type="BOOL">
+<Cons Device="IF2.ST1" DPName="Stage_1_Constraint" Kind="io"/>
+</LN>
 <LN ID="%IX.X1.DigitalInput01" Type="BOOL">
 <Prod Device="X1" DPName="DigitalInput01" Kind="io"/>
 </LN>

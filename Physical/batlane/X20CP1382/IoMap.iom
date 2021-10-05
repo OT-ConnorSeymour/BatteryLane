@@ -35,4 +35,5 @@ VAR_CONFIG
 	::DNO_SIGNAL:Stage1_Confirmed AT %QX."X3".DigitalOutput01;
 	::DNO_SIGNAL:Stage2_Confirmed AT %QX."X3".DigitalOutput02;
 	::DNO_SIGNAL:TX123OPEN AT %IX."X2".DigitalInput04;
+	::DNO_SIGNAL:ManualModeEnable AT %QX."RTAC".Stage_1_constraint_write;
 END_VAR
